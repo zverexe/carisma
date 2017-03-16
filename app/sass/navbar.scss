@@ -1,0 +1,42 @@
+@import "variables";
+/*
+* Navbar css rules
+ */
+
+.navigation{
+  box-shadow: $general-box-shadow;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .menu{
+    li{
+      padding: 20px 0;
+      margin: 0 20px;
+      cursor: pointer;
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+    a{
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: $color-D4D4D4;
+      cursor: pointer;
+
+    }
+    li:hover, li:active{
+      padding-bottom: 17px;
+      border-bottom: 3px solid $color-368FE9;
+      a{
+        color: $color-4D4D4D;
+      }
+    }
+  }
+  .social-links{
+    li:last-child{
+      padding-right: 0;
+    }
+  }
+}
