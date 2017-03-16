@@ -1,0 +1,36 @@
+@import "variables";
+/*
+* Footes css rules
+ */
+
+.footer-container{
+  background-color: $color-4D4D4D;
+  padding-bottom: 10px;
+  .copyright{
+    color: $color-808080;
+  }
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  .footer-item{
+    h4{
+      color: $color-808080;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+    a, p{
+      color: $color-fff;
+    }
+    li{
+      margin-bottom: 15px;
+    }
+    i{
+      background-color: $color-fff;
+      border-radius: 100%;
+      padding: 5px 8px;
+      color: $color-4D4D4D;
+    }
+  }
+}
