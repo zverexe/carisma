@@ -1,0 +1,11 @@
+.breadcrumb{
+  margin-top: 40px;
+  padding-left: 0;
+  margin-bottom: 50px;
+  background-color: inherit;
+}
+.breadcrumb > li + li:before {
+  color: #ccc;
+  content: "> ";
+  padding: 0 5px;
+}

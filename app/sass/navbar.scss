@@ -22,15 +22,15 @@
     a{
       font-family: 'Roboto', sans-serif;
       font-size: 18px;
-      color: $color-D4D4D4;
+      color: $dark-2;
       cursor: pointer;
 
     }
     li:hover, li:active{
       padding-bottom: 17px;
-      border-bottom: 3px solid $color-368FE9;
+      border-bottom: 3px solid $primary-blu;
       a{
-        color: $color-4D4D4D;
+        color: $dark-2;
       }
     }
   }

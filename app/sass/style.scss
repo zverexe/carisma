@@ -17,10 +17,16 @@ p{
 
 a{
   font-family: 'Roboto', sans-serif;
+  color: inherit;
 }
 
 a:hover{
   text-decoration: none;
+  color: inherit;
+}
+
+.p-heading{
+  font-size: 16px;
 }
 
 .list-inline{
@@ -30,6 +36,7 @@ a:hover{
 .form-control{
   border: 0;
 }
+
 .dropdown-menu{
   box-shadow: none;
   border: 0;
@@ -43,18 +50,33 @@ a:hover{
     a{
       padding: 10px 20px;
       &:hover{
-        color: $color-fff;
-        background-color: #368FE9;
+        color: $primary-fff;
+        background-color: $primary-blu;
       }
     }
   }
 }
+.progress{
+  border-radius: 0;
+  box-shadow: none;
+  background-color: $white-1;
+  margin-bottom:10px;
+}
+.progress-bar{
+  background-color: $yellow;
+  box-shadow: none;
+}
+
 @import "header.scss";
 @import "navbar.scss";
-@import "category.scss";
-@import "filter.scss";
-@import "product-list.scss";
+//@import "category.scss";
+//@import "filter.scss";
+//@import "product-list.scss";
 @import "footer";
+@import "breadcrump";
+@import "product-info";
+@import "right-section";
+@import "product-page-reviews";
 
 /*
 * Media styles

@@ -1,0 +1,172 @@
+@import "variables";
+
+.product-page-nav{
+  box-shadow: $general-box-shadow;
+}
+.product-navigation {
+  display: flex;
+  margin: 40px 0 45px 0;
+  li {
+    padding: 20px ;
+    cursor: pointer;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: $dark-2;
+    cursor: pointer;
+
+  }
+  li:hover{
+    border-bottom: 3px solid $gray-4;
+    padding-bottom: 17px;
+    a {
+      color: $dark-2;
+    }
+  }
+  li:active {
+    padding-bottom: 17px;
+    border-bottom: 3px solid $primary-blu;
+    a {
+      color: $dark-2;
+    }
+  }
+}
+
+.product-reviews-section{
+  h4{
+    color: $dark-2;
+  }
+  .product-reviews-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .product-rating-mark{
+    padding: 0 20px;
+    .total-rating {
+      display: flex;
+      align-items: center;
+      p {
+        margin-left: 10px;
+        color: $gray-2;
+      }
+      i {
+        padding-right: 5px;
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
+  }
+  .progress-bar-mark{
+    float: left;
+    margin-right: 10px;
+  }
+  .review-item{
+    width: 100%;
+    //margin-right: 25px;
+    padding: 30px 0;
+    &:last-child{
+      margin-right: 0;
+    }
+    li{
+      margin-bottom: 10px;
+    }
+  }
+  .review-item-title{
+    margin-bottom: 10px;
+    color: $dark-2;
+  }
+  .review-source, .progress-bar-mark{
+    color: $gray-2;
+  }
+  .review-source{
+    margin-left: 50px;
+    width: 70%;
+  }
+  .recomendation{
+    li{
+      padding: 4px 17px;
+      background-color: $green;
+      border-radius: 4px;
+      p{
+        color: $dark-1;
+      }
+    }
+  }
+  .product-add-review {
+    padding: 0 20px;
+    .reviews-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .reviews-options-item{
+      .load-options{
+        color: $gray-2;
+      }
+      .checkbox-inline{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      .checkbox-inline input[type=checkbox]{
+        position: relative;
+        margin-left: 0;
+        margin-right: 8px;
+      }
+      input[type="checkbox"] {
+        -webkit-appearance: none;
+        margin-top: 0;
+      }
+      input[type="checkbox"]:after, .checkbox-inline input[type="checkbox"]:after {
+        border: 2px solid $gray-1;
+        border-radius: 3px;
+        content: '';
+        display: block;
+        height: 24px;
+        transition: 240ms;
+        width: 24px;
+      }
+
+      input[type="checkbox"]:checked:before, .checkbox-inline input[type="checkbox"]:checked:before {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        left: 8px;
+        top: 4px;
+        display: table;
+        width: 6px;
+        height: 12px;
+        border: 2px solid $primary-fff;
+        border-top: 0;
+        border-left: 0;
+        content: '';
+      }
+      input[type="checkbox"]:checked:after, .checkbox-inline input[type="checkbox"]:checked:after {
+        background-color: $primary-blu;
+        border-color: $primary-blu;
+      }
+      input[type="checkbox"]:disabled:checked:after, .checkbox-inline input[type="checkbox"]:disabled:checked:after {
+        background-color: $gray-1;
+        border-color: transparent;
+      }
+      .fa-star{
+        margin-right: 10px;
+        color: $yellow;
+        font-size: 24px;
+      }
+    }
+  }
+  .add-review-btn{
+    background-color: $primary-pink;
+    color: $primary-fff;
+  }
+
+}

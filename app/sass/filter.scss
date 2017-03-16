@@ -7,22 +7,22 @@
   margin-top: 50px;
   box-shadow: $general-box-shadow;
   .fa-question-circle{
-    color:  $color-368FE9;
+    color:  $primary-blu;
   }
   .add-review, .request-product{
     height: 48px;
     width: 100%;
-    color: $color-fff;
-    background-color: $color-F17578;
+    color: $primary-fff;
+    background-color: $primary-pink;
     margin-bottom:15px;
     font-family: 'Roboto', sans-serif;
     box-shadow: $buttons-box-shadow;
   }
   .add-review{
-    background-color: $color-368FE9;
+    background-color: $primary-blu;
   }
   p{
-    color: $color-808080;
+    color:$dark-1;
     margin-bottom: 30px;
     font-size: 16px;
   }
@@ -52,7 +52,7 @@
       margin-top: 0;
     }
     input[type="checkbox"]:after, .checkbox-inline input[type="checkbox"]:after {
-      border: 2px solid $color-D4D4D4;
+      border: 2px solid $gray-1;
       border-radius: 3px;
       content: '';
       display: block;
@@ -70,22 +70,22 @@
       display: table;
       width: 6px;
       height: 12px;
-      border: 2px solid $color-fff;
+      border: 2px solid $primary-fff;
       border-top: 0;
       border-left: 0;
       content: '';
     }
     input[type="checkbox"]:checked:after, .checkbox-inline input[type="checkbox"]:checked:after {
-      background-color: $color-368FE9;
-      border-color: $color-368FE9;
+      background-color: $primary-blu;
+      border-color: $primary-blu;
     }
     input[type="checkbox"]:disabled:checked:after, .checkbox-inline input[type="checkbox"]:disabled:checked:after {
-      background-color: $color-D4D4D4;
+      background-color: $gray-1;
       border-color: transparent;
     }
     .fa-star{
       margin-right: 10px;
-      color: $color-FFDD36;
+      color: $yellow;
       font-size: 24px;
     }
   }

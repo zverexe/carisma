@@ -4,12 +4,11 @@
 */
 
 .header {
-  background-color: $color-95E1D3;
+  background-color: $header-bgc;
   .header-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -24,8 +23,8 @@
       font-size: 18px;
       margin-right: 5px;
       width: 144px;
-      border: 0;
-      box-shadow: $general-box-shadow;
+      border: $border;
+
 
     }
     .search {
@@ -43,7 +42,7 @@
       height: 40px;
       border-radius: 3px;
       text-indent: 30px;
-      color: $color-727272;
+      color: $gray-3;
       font-weight: 400;
     }
     .search__button{
@@ -51,31 +50,36 @@
       top: 4px;
       right: 5px;
       border-radius: 3px;
-      color: $color-fff;
-      background-color: $color-368FE9;
+      color: $primary-fff;
+      background-color: $primary-blu;
       font-size: 14px;
       width: 115px;
       height: 32px;
     }
   }
   .logo {
-    color: $color-fff;
+    color: $primary-fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
   }
-  .profile{
+  .register{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    color: $color-fff;
-    .profile-info{
-      display: flex;
-      .profile-info__greeting{
-        margin-left: 20px;
-        margin-right: 10px;
-      }
-    }
-    .username{
-      font-size: 18px;
-    }
+  }
+  .sign-up, .login{
+    height: 40px;
+    padding: 0px 32px;
+    width: 100%;
+    color: $primary-fff;
+    border: 1px solid $primary-fff;
+    background-color: inherit;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+  }
+  .login{
+    background-color: $primary-blu;
+    border: 0;
+    margin-left: 16px;
   }
 }
