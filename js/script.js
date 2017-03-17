@@ -1,17 +1,5 @@
 $(document).ready(function() {
-    $("#example_id").ionRangeSlider({
-        type: "double",
-        grid: true,
-        min: 0,
-        max: 11
-    });
-    $("#price").ionRangeSlider({
-        type: "double",
-        grid: true,
-        min: 0,
-        max: 1000,
-        prefix: "$"
-    });
+
     $('#imageGallery').lightSlider({
         gallery:true,
         item:1,
@@ -27,6 +15,19 @@ $(document).ready(function() {
                 selector: '#imageGallery .lslide'
             });
         }
+    });
+    $("#example_id").ionRangeSlider({
+        type: "double",
+        grid: true,
+        min: 0,
+        max: 11
+    });
+    $("#price").ionRangeSlider({
+        type: "double",
+        grid: true,
+        min: 0,
+        max: 1000,
+        prefix: "$"
     });
 });
 
