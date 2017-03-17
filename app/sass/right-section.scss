@@ -24,6 +24,9 @@
     .similar-product-rating{
       display: flex;
       margin-top: 19px;
+      .list-inline>li{
+        padding: 0;
+      }
       p{
         color: $gray-2;
         align-items: center;
@@ -31,19 +34,25 @@
       }
      }
   }
-  .resources-link, .skincare-blog-link{
-    width: 360px;
-    height: 120px;
-    padding: 16px;
-    color: $primary-fff;
-    border-radius: 4px;
+}
+.resources-link, .skincare-blog-link{
+  width: 100%;
+  padding: 16px;
+  height: 120px;
+  color: $primary-fff;
+  border-radius: 4px;
+  h3{
+    font-weight: 400;
   }
-  .resources-link{
-    margin-top: 50px;
-    margin-bottom: 16px;
-    background-color: $header-bgc;
-  }
-  .skincare-blog-link{
-    background-color: $primary-blu;
+}
+.resources-link{
+  margin-top: 50px;
+  margin-bottom: 16px;
+  background-color: $header-bgc;
+}
+.skincare-blog-link{
+  background-color: $primary-blu;
+  p{
+    margin-top: 10px;
   }
 }

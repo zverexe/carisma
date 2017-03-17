@@ -4,9 +4,8 @@
 }
 .product-info{
   color: $dark-2;
-  #imageGallery{
-
-  }
+  box-shadow: $general-box-shadow;
+  padding-bottom:25px;
   .product-title{
     h3{
       font-weight:500;

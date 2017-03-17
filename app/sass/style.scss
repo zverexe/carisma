@@ -29,6 +29,9 @@ a:hover{
   font-size: 16px;
 }
 
+.p-gray-2{
+  color: $gray-2;
+}
 .list-inline{
   margin-left: 0;
 }
@@ -66,7 +69,16 @@ a:hover{
   background-color: $yellow;
   box-shadow: none;
 }
-
+.table>tbody>tr>td{
+  border: 0;
+  vertical-align: middle;
+  &:first-child{
+    padding-left:0;
+  }
+  &:last-child{
+    padding-right: 0;
+  }
+}
 @import "header.scss";
 @import "navbar.scss";
 //@import "category.scss";
@@ -77,6 +89,9 @@ a:hover{
 @import "product-info";
 @import "right-section";
 @import "product-page-reviews";
+@import "customer-reviews";
+@import "qa-section";
+@import "bottom-section";
 
 /*
 * Media styles
@@ -90,10 +105,49 @@ a:hover{
       }
     }
   }
+  .product-navigation{
+    li{
+      padding: 20px 10px;
+    }
+  }
+  .right-section{
+    .similar-product{
+      .similar-product-rating{
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+  .product-info{
+    .product-controls{
+      .add-to-wishlist {
+        margin: 0 5px;
+      }
+    }
+  }
+  .bottom-section{
+    .additional-products-photo{
+      ul{
+        text-align: center;
+      }
+    }
+  }
 }
-
 @media screen and (max-width: 991px) {
+  .nav-bar{
+    .menu{
+      a{
+        font-size: 16px;
+      }
+      li{
+        margin: 0 5px;
+      }
+    }
+  }
   .header{
+    .sign-up, .login{
+      padding: 0 18px;
+    }
     .logo{
       font-size: 20px;
     }
@@ -122,6 +176,65 @@ a:hover{
       }
       .products-list__price{
         margin: 0 10px;
+      }
+    }
+  }
+  .product-navigation{
+    li{
+      padding: 20px 8px;
+    }
+    a{
+      font-size: 14px;
+    }
+  }
+  .right-section{
+    .social-share-btn{
+      text-align: center;
+      margin-bottom: 0;
+      li{
+        margin-bottom: 5px;
+      }
+    }
+    .similar-product{
+      .similar-product-rating{
+        p{
+          font-size: 12px;
+          margin-left: 0;
+        }
+      }
+      .similar-product-title{
+        text-align: center;
+      }
+    }
+  }
+  .product-info{
+    .product-controls{
+      .btn{
+        padding: 13px 5px;
+      }
+      .fa-flag{
+        margin-right:2px;
+      }
+    }
+  }
+  .product-reviews-section{
+    .recomendation{
+      p{
+        font-size: 12px;
+      }
+    }
+  }
+  .bottom-section{
+    tbody{
+      display: flex;
+      //flex-wrap: wrap;
+      flex-direction: column;
+      tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: 1px solid $gray-1;
       }
     }
   }

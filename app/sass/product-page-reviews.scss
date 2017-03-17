@@ -15,7 +15,7 @@
   }
   a {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: $dark-2;
     cursor: pointer;
 
@@ -160,11 +160,17 @@
       .fa-star{
         margin-right: 10px;
         color: $yellow;
-        font-size: 24px;
+        font-size: 16px;
       }
     }
   }
   .add-review-btn{
+    background-color: $primary-pink;
+    color: $primary-fff;
+  }
+  .add-review-btn-sm{
+    margin-top: 20px;
+    width: 100%;
     background-color: $primary-pink;
     color: $primary-fff;
   }
