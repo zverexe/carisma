@@ -74,6 +74,26 @@
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400; }
+  .header .profile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #4D4D4D; }
+    .header .profile .profile-info {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .header .profile .profile-info .profile-info__greeting {
+        margin-left: 20px;
+        margin-right: 10px; }
+    .header .profile .username {
+      font-size: 18px; }
   .header .register {
     display: -webkit-box;
     display: -webkit-flex;

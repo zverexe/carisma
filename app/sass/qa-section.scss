@@ -1,0 +1,78 @@
+@import "variables";
+.qa-section {
+  padding: 0 20px 30px 20px;
+  box-shadow: $general-box-shadow;
+  .qa-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 25px;
+    margin-top: 45px;
+    padding: 25px 0;
+    border-bottom: 1px solid #D4D4D4;
+    .qa-header-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      i {
+        margin-bottom: 21px;
+        color: #B2B2B2;
+      }
+      .btn {
+        background-color: #F17578;
+        color: #fff;
+      }
+    }
+  }
+  .customer-question {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 17px;
+    .customer-question-body {
+      padding-bottom: 21px;
+      border-bottom: 1px solid #E5E5E5;
+      &:last-child{
+        border-bottom: 0;
+      }
+    }
+    .show-answer, .no-answer, .hide-answer{
+      margin-top: 8px;
+    }
+    .show-answer,  .hide-answer{
+      color: #368FE9;
+    }
+    .img-circle {
+      width: 56px;
+      height: 56px;
+      margin-right: 16px;
+    }
+    .customer-question-header{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 13px;
+      .btn {
+        background-color: #FAFAFA;
+        color: #4D4D4D;
+        border: 1px solid #D4D4D4;
+      }
+    }
+    .text-right {
+      margin-top: 10px;
+      i {
+        margin-left: 15px;
+        color: #B2B2B2;
+      }
+    }
+  }
+  .customer-answer {
+   @extend .customer-question;
+    padding-left: 75px;
+    .customer-answer-header {
+      display: flex;
+      p:first-child {
+        margin-right: 18px;
+      }
+    }
+  }
+}

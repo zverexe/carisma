@@ -4,10 +4,20 @@
  */
 
 .filter{
-  margin-top: 50px;
-  box-shadow: $general-box-shadow;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &:first-child{
+    margin-top: 50px;
+  }
+  .filters-type{
+    //box-shadow: $general-box-shadow;
+    border: $border;
+    border-radius: 2px;
+    background-color: $primary-fff;
+  }
+
   .fa-question-circle{
-    color:  $primary-blu;
+    color: $primary-blu;
   }
   .add-review, .request-product{
     height: 48px;
@@ -22,15 +32,17 @@
     background-color: $primary-blu;
   }
   p{
-    color:$dark-1;
-    margin-bottom: 30px;
+    color: $dark-1;
+    margin-bottom: 5px;
     font-size: 16px;
   }
+
   .filter-item{
     margin-bottom: 15px;
     padding: 5px 24px;
     &:last-child{
       margin-bottom: 35px;
+      padding-bottom:25px;
     }
     h4{
       margin-bottom: 20px;
@@ -40,7 +52,7 @@
       align-items: center;
       padding-left: 0;
       margin-bottom: 16px;
-      font-size: 16px;
+      font-size: 14px;
     }
     .checkbox-inline input[type=checkbox]{
       position: relative;

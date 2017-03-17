@@ -1,0 +1,65 @@
+@import "variables";
+/*
+*  Category css rules
+ */
+.category-section{
+  margin-top: 40px;
+  padding: 20px;
+  //box-shadow: $general-box-shadow;
+  border: $border;
+  border-radius: 2px;
+  background-color: $primary-fff;
+  display: flex;
+  justify-content: space-between;
+  h3{
+    font-weight:400;
+    color: $dark-2;
+  }
+  .categories{
+    border-right: 1px solid $white-1;
+    width: 50%;
+    h3{
+      margin-bottom: 25px;
+    }
+  }
+  .categories-items{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .categories-item{
+    margin: 0 15px 25px 0;
+    &:last-child{
+      margin: 0 0 25px 0;
+    }
+    a{
+      color: $dark-1;
+      font-size: 18px;
+      padding: 9px 24px;
+      background-color: $white-2;
+      border-radius: 2px;
+    }
+    a:active, a:hover{
+      color: $primary-fff;
+      background-color: $primary-blu;
+    }
+  }
+  .category-info{
+    display: flex;
+    width: 48%;
+  }
+  .category-logo{
+    margin-right: 25px;
+    p{
+      background-color: $white-2;
+      border-radius: 50%;
+      padding: 30px 20px;
+    }
+  }
+  .category-description{
+    p{
+      font-size: 16px;
+      line-height: 25px;
+      color: $gray-2;
+    }
+  }
+}

@@ -56,6 +56,8 @@
     .qa-section .customer-question .customer-question-body, .qa-section .customer-answer .customer-question-body {
       padding-bottom: 21px;
       border-bottom: 1px solid #E5E5E5; }
+      .qa-section .customer-question .customer-question-body:last-child, .qa-section .customer-answer .customer-question-body:last-child {
+        border-bottom: 0; }
     .qa-section .customer-question .show-answer, .qa-section .customer-answer .show-answer, .qa-section .customer-question .no-answer, .qa-section .customer-answer .no-answer, .qa-section .customer-question .hide-answer, .qa-section .customer-answer .hide-answer {
       margin-top: 8px; }
     .qa-section .customer-question .show-answer, .qa-section .customer-answer .show-answer, .qa-section .customer-question .hide-answer, .qa-section .customer-answer .hide-answer {
@@ -78,8 +80,11 @@
         background-color: #FAFAFA;
         color: #4D4D4D;
         border: 1px solid #D4D4D4; }
-    .qa-section .customer-question:last-child .customer-question-body, .qa-section .customer-answer:last-child .customer-question-body {
-      border-bottom: 0; }
+    .qa-section .customer-question .text-right, .qa-section .customer-answer .text-right {
+      margin-top: 10px; }
+      .qa-section .customer-question .text-right i, .qa-section .customer-answer .text-right i {
+        margin-left: 15px;
+        color: #B2B2B2; }
   .qa-section .customer-answer {
     padding-left: 75px; }
     .qa-section .customer-answer .customer-answer-header {
@@ -89,8 +94,3 @@
       display: flex; }
       .qa-section .customer-answer .customer-answer-header p:first-child {
         margin-right: 18px; }
-    .qa-section .customer-answer .text-right {
-      margin-top: 10px; }
-      .qa-section .customer-answer .text-right i {
-        margin-left: 15px;
-        color: #B2B2B2; }

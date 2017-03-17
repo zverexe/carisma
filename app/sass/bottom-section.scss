@@ -1,0 +1,59 @@
+@import "variables";
+
+.bottom-section {
+  padding-bottom: 155px;
+  .price-comparison {
+    box-shadow: $general-box-shadow;
+    padding-bottom: 30px;
+  }
+  .btn {
+    background-color: #F17578;
+    color: #fff;
+  }
+
+  .view-more {
+    color: #95E1D3;
+    cursor: pointer;
+  }
+
+  .website-price {
+    padding: 0 20px;
+    margin-top: 45px;
+
+    .btn {
+      width: 100%;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: #4D4D4D;
+    }
+
+    table {
+      margin-top: 30px;
+    }
+  }
+
+  .additional-products-photo, .additional-info {
+    margin-top: 50px;
+    padding: 0px 20px 50px 20px;
+    box-shadow: $general-box-shadow;
+  }
+
+  .additional-header {
+
+    display: flex;
+
+    justify-content: space-between;
+    margin-bottom: 23px;
+
+    h3 {
+      font-size: 20px;
+      color: #4D4D4D;
+    }
+  }
+
+  .additional-products-photo li {
+    margin-bottom: 24px;
+  }
+}

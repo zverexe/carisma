@@ -2,9 +2,15 @@
 * Filter css rules
  */
 .filter {
-  margin-top: 50px;
-  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .filter:first-child {
+    margin-top: 50px; }
+  .filter .filters-type {
+    border: 1px solid #e7e7e7;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    background-color: #fff; }
   .filter .fa-question-circle {
     color: #368FE9; }
   .filter .add-review, .filter .request-product {
@@ -20,13 +26,14 @@
     background-color: #368FE9; }
   .filter p {
     color: #808080;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     font-size: 16px; }
   .filter .filter-item {
     margin-bottom: 15px;
     padding: 5px 24px; }
     .filter .filter-item:last-child {
-      margin-bottom: 35px; }
+      margin-bottom: 35px;
+      padding-bottom: 25px; }
     .filter .filter-item h4 {
       margin-bottom: 20px; }
     .filter .filter-item .checkbox-inline {
@@ -40,7 +47,7 @@
               align-items: center;
       padding-left: 0;
       margin-bottom: 16px;
-      font-size: 16px; }
+      font-size: 14px; }
     .filter .filter-item .checkbox-inline input[type=checkbox] {
       position: relative;
       margin-left: 0;

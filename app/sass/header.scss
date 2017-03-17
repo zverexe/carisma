@@ -61,6 +61,21 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
   }
+  .profile{
+    display: flex;
+    align-items: center;
+    color: $dark-2;
+    .profile-info{
+      display: flex;
+      .profile-info__greeting{
+        margin-left: 20px;
+        margin-right: 10px;
+      }
+    }
+    .username{
+      font-size: 18px;
+    }
+  }
   .register{
     display: flex;
     justify-content: space-between;

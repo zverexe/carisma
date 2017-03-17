@@ -81,17 +81,18 @@ a:hover{
 }
 @import "header.scss";
 @import "navbar.scss";
-//@import "category.scss";
-//@import "filter.scss";
-//@import "product-list.scss";
+@import "category.scss";
+@import "filter.scss";
+@import "product-list.scss";
 @import "footer";
 @import "breadcrump";
 @import "product-info";
 @import "right-section";
 @import "product-page-reviews";
 @import "customer-reviews";
-@import "qa-section";
 @import "bottom-section";
+@import "qa-section";
+
 
 /*
 * Media styles
