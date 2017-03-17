@@ -2,8 +2,8 @@
 * Navbar css rules
  */
 .navigation {
-  border: 1px solid #e7e7e7;
-  background-color: #00b4aa; }
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
 
 .nav-bar {
   display: -webkit-box;
@@ -27,7 +27,7 @@
   .nav-bar .menu a {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: #fff;
+    color: #4D4D4D;
     cursor: pointer; }
   .nav-bar .menu li:hover, .nav-bar .menu li:active {
     padding-bottom: 17px;

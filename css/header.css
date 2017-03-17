@@ -2,7 +2,7 @@
 * Header css rules
 */
 .header {
-  background-color: #fff; }
+  background-color: #95E1D3; }
   .header .header-top {
     display: -webkit-box;
     display: -webkit-flex;
@@ -36,19 +36,18 @@
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between;
-      height: 43px;
+      height: 40px;
       font-size: 18px;
       margin-right: 5px;
       width: 144px;
       border: 1px solid #e7e7e7;
-      -webkit-border-radius: 2px;
-              border-radius: 2px; }
+      -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
     .header .search-bar .search {
       position: relative;
       width: 496px;
-      border: 1px solid #e7e7e7;
-      -webkit-border-radius: 2px;
-              border-radius: 2px; }
+      -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
     .header .search-bar .search__icon {
       position: absolute;
       top: 8px;
@@ -59,9 +58,7 @@
               border-radius: 3px;
       text-indent: 30px;
       color: #727272;
-      font-weight: 400;
-      -webkit-box-shadow: none;
-              box-shadow: none; }
+      font-weight: 400; }
     .header .search-bar .search__button {
       position: absolute;
       top: 4px;
@@ -74,26 +71,32 @@
       width: 115px;
       height: 32px; }
   .header .logo {
-    color: #4D4D4D;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400; }
-  .header .profile {
+  .header .register {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
-            align-items: center;
-    color: #4D4D4D; }
-    .header .profile .profile-info {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex; }
-      .header .profile .profile-info .profile-info__greeting {
-        margin-left: 20px;
-        margin-right: 10px; }
-    .header .profile .username {
-      font-size: 18px; }
+            align-items: center; }
+  .header .sign-up, .header .login {
+    height: 40px;
+    padding: 0px 32px;
+    width: 100%;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: inherit;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif; }
+  .header .login {
+    background-color: #368FE9;
+    border: 0;
+    margin-left: 16px; }
