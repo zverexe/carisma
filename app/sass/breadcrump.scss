@@ -1,8 +1,19 @@
+@import "variables";
+
 .breadcrumb{
   margin-top: 40px;
   padding-left: 0;
   margin-bottom: 50px;
   background-color: inherit;
+  a{
+    color: $primary-blu;
+  }
+  a, .active{
+    font-size: 18px;
+  }
+  .active{
+    color: $dark-2;
+  }
 }
 .breadcrumb > li + li:before {
   color: #ccc;

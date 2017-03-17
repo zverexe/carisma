@@ -110,7 +110,9 @@ a:hover {
       font-size: 18px;
       margin-right: 5px;
       width: 144px;
-      border: 1px solid #e7e7e7; }
+      border: 1px solid #e7e7e7;
+      -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
     .header .search-bar .search {
       position: relative;
       width: 496px;
@@ -247,6 +249,12 @@ a:hover {
   padding-left: 0;
   margin-bottom: 50px;
   background-color: inherit; }
+  .breadcrumb a {
+    color: #368FE9; }
+  .breadcrumb a, .breadcrumb .active {
+    font-size: 18px; }
+  .breadcrumb .active {
+    color: #4D4D4D; }
 
 .breadcrumb > li + li:before {
   color: #ccc;
@@ -294,10 +302,13 @@ a:hover {
       margin-right: 10px; }
 
 .right-section {
-  padding: 0 24px; }
+  padding: 0 25px 24px;
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
   .right-section .social-share-btn {
     padding: 18px 0 25px 0;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    border-bottom: 1px solid #D4D4D4; }
   .right-section .list-inline > li:first-child {
     padding-left: 0; }
   .right-section .similar-product .p-heading {
@@ -356,14 +367,17 @@ a:hover {
 
 .product-page-nav {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px; }
+  .product-page-nav .col-sm-12 {
+    padding: 0; }
 
 .product-navigation {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 40px 0 45px 0; }
+  margin: 40px 0 0 0; }
   .product-navigation li {
     padding: 20px;
     cursor: pointer; }

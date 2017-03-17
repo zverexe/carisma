@@ -1,9 +1,11 @@
 @import "variables";
 .right-section{
- padding: 0 24px;
+  padding: 0 25px 24px;
+  box-shadow: $general-box-shadow;
   .social-share-btn{
     padding: 18px 0 25px 0;
     margin-bottom: 25px;
+    border-bottom: 1px solid $gray-1;
   }
   .list-inline>li:first-child{
     padding-left:0;

@@ -24,6 +24,7 @@
       margin-right: 5px;
       width: 144px;
       border: $border;
+      box-shadow: $general-box-shadow;
     }
     .search {
       @extend .search-bar;

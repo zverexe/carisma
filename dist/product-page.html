@@ -1,0 +1,924 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lightslider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/lightgallery/1.3.9/css/lightgallery.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 header-top">
+                    <h2 class="logo">Skincarisma</h2>
+                    <div class="search-bar">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-categories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Product
+                                <span><i class="fa fa-chevron-down fa-1x" aria-hidden="true"></i></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown-categories">
+                                <li><a href="#">Action</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Another action</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <img  class="search__icon" src="img/search.png" alt="">
+                            <input type="text" class="form-control search__input" id="" placeholder="Search products">
+                            <button type="button" class="btn search__button">Search</button>
+                        </div>
+                    </div>
+                    <div class="register">
+                        <button class="btn sign-up">Sign Up</button>
+                        <button class="btn login">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid navigation">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 nav-bar">
+                    <ul class="list-unstyled list-inline menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Skin Resources</a></li>
+                        <li><a href="">Community Forums</a></li>
+                        <li><a href="">Product Reviews</a></li>
+                    </ul>
+                    <ul class="list-unstyled list-inline social-links">
+                        <li><a href=""><img src="img/twitter.png" alt=""></a></li>
+                        <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                        <li><a href=""><img src="img/instagram.png" alt=""></a></li>
+                        <li><a href=""><img src="img/pinterest.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#">Product Review</a>
+                </li>
+                <li><a href="#">Cleaners</a></li>
+                <li class="active">Mizon All in One Snail and Bee Venom</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="row product-info">
+                <div class="col-sm-5">
+                    <div class="product-image">
+                        <ul id="imageGallery">
+                            <li data-thumb="img/product-img-1.png" data-src="img/product-img-1.png">
+                                <img src="img/product-img-1.png" />
+                            </li>
+                            <li data-thumb="img/product-img-2.png" data-src="img/product-img-2.png">
+                                <img class="img-responsive" src="img/product-img-2.png" />
+                            </li>
+                            <li data-thumb="img/product-img-3.png" data-src="img/product-img-3.png">
+                                <img src="img/product-img-3.png" />
+                            </li>
+                            <li data-thumb="img/product-img-4.png" data-src="img/product-img-4.png">
+                                <img src="img/product-img-4.png" />
+                            </li>
+                            <li data-thumb="img/product-img-5.png" data-src="img/product-img-5.png">
+                                <img src="img/product-img-5.png" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="product-description">
+                        <div class="product-title">
+                            <h3>Mizon All in One Snail and Bee Venom</h3>
+                            <p>By <span class="author-name">Simon Lee</span></p>
+                            <p>Cleanser</p>
+                            <button class="btn">Foaming Cleanser</button>
+                        </div>
+                        <div class="product-rating">
+                            <p>Rates</p>
+                            <div class="product-rating__mark">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="product-reviews-qty">210 Review</p>
+                        </div>
+                        <div class="product-controls">
+                            <button class="btn save-to">Save To</button>
+                            <button class="btn add-to-wishlist">Add to Wishlist</button>
+                            <a href=""><i class="fa fa-flag" aria-hidden="true"></i>Contribute</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row product-page-nav">
+                <div class="col-sm-12 ">
+                    <ul class="list-unstyled list-inline  product-navigation">
+                        <li><a href="">Overview</a></li>
+                        <li><a href="">Reviews</a></li>
+                        <li><a href="">Q & A</a></li>
+                        <li><a href="">Price Comparison</a></li>
+                        <li><a href="">Ingredients</a></li>
+                        <li><a href="">Photos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row product-reviews-section">
+                <div class="col-sm-12">
+                    <div class="product-rating-mark">
+                        <h4>Mizon All in One Snail and Bee Venom Ratings Breakdown</h4>
+                        <div class="total-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <p>5.0 out of 5.0 - Average of 210 Reviews</p>
+                        </div>
+                    </div>
+                    <div class="product-reviews-items">
+                        <div class="review-item">
+                            <p class="review-item-title">Reviews</p>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p class="progress-bar-mark">5 stars</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="progress-bar-mark">4 stars</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="progress-bar-mark"> 3 stars</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="progress-bar-mark">2 stars</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="progress-bar-mark">1 stars</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="review-item review-source">
+                            <p class="review-item-title">Review Source</p>
+                            <ul class="list-unstyled">
+                                <li>Baendo (25)</li>
+                                <li>Makeupolley (128)</li>
+                                <li>Ulta (81)</li>
+                                <li>Sephora (52)</li>
+                            </ul>
+                        </div>
+                        <div class="review-item">
+                            <p class="review-item-title">Best Recommended For</p>
+                            <ul class="list-inline list-unstyled recomendation">
+                                <li><p>Oil Skin</p></li>
+                                <li><p>Combination Skin</p></li>
+                            </ul>
+                            <p class="review-item-title">Most likely not Suitable For</p>
+                            <ul class="list-unstyled list-inline recomendation">
+                                <li><p>Dry Skin</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="product-add-review">
+                        <h4>“256” Reviews from our Skincarisma Community</h4>
+                        <div class="reviews-options">
+                            <div class="reviews-options-item">
+                                <p class="review-item-title">Reviews</p>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" value="">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox-inline"><input type="checkbox" value="">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox-inline"><input type="checkbox" value="">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox-inline"><input type="checkbox" value="">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox-inline"><input type="checkbox" value="">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="reviews-options-item">
+                                <p class="review-item-title">Skin Type</p>
+                                <ul class="list-unstyled">
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Normal</label></li>
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Oily</label></li>
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Dry</label></li>
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Combination</label></li>
+                                </ul>
+                            </div>
+                            <div class="list-unstyled reviews-options-item">
+                                <p class="review-item-title">Skin Concerns</p>
+                                <ul class="list-unstyled">
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Sensivity</label></li>
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Dehybrated</label></li>
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Redness</label></li>
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Acne-Prone</label></li>
+                                    <li><label class="checkbox-inline"><input type="checkbox" value="">Uneven Testured</label></li>
+                                    <li><p class="load-options">more options</p></li>
+                                </ul>
+                            </div>
+                            <button class="btn add-review-btn hidden-sm">Write A Review</button>
+                        </div>
+                        <button class="btn add-review-btn-sm visible-sm">Write A Review</button>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="customer-reviews-section">
+                        <div class="reviews-filter">
+                            <p>Showing “256” Review: <span>4 Stars, Oily, Combination, Sensitivity</span></p>
+                            <div class="clear-filters">
+                                <a href="">Clear all <i class="fa fa-times" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="customer-reviews">
+                            <div class="customer-reviews-item">
+                                <div class="review-wrapper">
+                                    <div class="customer-info">
+                                        <img src="img/customer-pic.png" alt="">
+                                        <p>Simon Lin</p>
+                                        <p><i class="fa fa-pencil" aria-hidden="true"></i> 24 Reviews</p>
+                                        <p><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                    </div>
+                                    <div class="review-body">
+                                        <h4>“Best Cleanser in it’s class”</h4>
+                                        <ul class="list-unstyled list-inline review-mark">
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                        <ul class="list-unstyled list-inline review-product-type">
+                                            <li>Skin Type: <span>Oily</span></li>
+                                            <li>Skin Concerns: <span>Anti-Aging,</span><span>Dehydrated</span></li>
+                                        </ul>
+                                        <p>
+                                            My skin produces excessive oil because of dryness and I have a lot of trouble
+                                            making my makeup My skin produces excessive oil because of dryness and I have a
+                                            lot of trouble making my makeupMy skin produces excessive oil because of dryness
+                                            and I have a lot of trouble making my makeupMy skink…
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="text-right like-review">Was this helpful? <i class="fa fa-thumbs-up" aria-hidden="true"></i> 12</p>
+                            </div>
+                            <div class="customer-reviews-item">
+                                <div class="review-wrapper">
+                                    <div class="customer-info">
+                                        <img src="img/customer-pic.png" alt="">
+                                        <p>Simon Lin</p>
+                                        <p><i class="fa fa-pencil" aria-hidden="true"></i> 24 Reviews</p>
+                                        <p><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                    </div>
+                                    <div class="review-body">
+                                        <h4>“Best Cleanser in it’s class”</h4>
+                                        <ul class="list-unstyled list-inline review-mark">
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                        <ul class="list-unstyled list-inline review-product-type">
+                                            <li>Skin Type: <span>Oily</span></li>
+                                            <li>Skin Concerns: <span>Anti-Aging,</span><span>Dehydrated</span></li>
+                                        </ul>
+                                        <p>
+                                            My skin produces excessive oil because of dryness and I have a lot of trouble
+                                            making my makeup My skin produces excessive oil because of dryness and I have a
+                                            lot of trouble making my makeupMy skin produces excessive oil because of dryness
+                                            and I have a lot of trouble making my makeupMy skink…
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="text-right like-review">Was this helpful? <i class="fa fa-thumbs-up" aria-hidden="true"></i> 12</p>
+                            </div>
+                            <div class="customer-reviews-item">
+                                <div class="review-wrapper">
+                                    <div class="customer-info">
+                                        <img src="img/customer-pic.png" alt="">
+                                        <p>Simon Lin</p>
+                                        <p><i class="fa fa-pencil" aria-hidden="true"></i> 24 Reviews</p>
+                                        <p><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                    </div>
+                                    <div class="review-body">
+                                        <h4>“Best Cleanser in it’s class”</h4>
+                                        <ul class="list-unstyled list-inline review-mark">
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                        <ul class="list-unstyled list-inline review-product-type">
+                                            <li>Skin Type: <span>Oily</span></li>
+                                            <li>Skin Concerns: <span>Anti-Aging,</span><span>Dehydrated</span></li>
+                                        </ul>
+                                        <p>
+                                            My skin produces excessive oil because of dryness and I have a lot of trouble
+                                            making my makeup My skin produces excessive oil because of dryness and I have a
+                                            lot of trouble making my makeupMy skin produces excessive oil because of dryness
+                                            and I have a lot of trouble making my makeupMy skink…
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="text-right like-review">Was this helpful? <i class="fa fa-thumbs-up" aria-hidden="true"></i> 12</p>
+                            </div>
+                            <div class="customer-reviews-item">
+                                <div class="review-wrapper">
+                                    <div class="customer-info">
+                                        <img src="img/customer-pic.png" alt="">
+                                        <p>Simon Lin</p>
+                                        <p><i class="fa fa-pencil" aria-hidden="true"></i> 24 Reviews</p>
+                                        <p><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                    </div>
+                                    <div class="review-body">
+                                        <h4>“Best Cleanser in it’s class”</h4>
+                                        <ul class="list-unstyled list-inline review-mark">
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                        <ul class="list-unstyled list-inline review-product-type">
+                                            <li>Skin Type: <span>Oily</span></li>
+                                            <li>Skin Concerns: <span>Anti-Aging,</span><span>Dehydrated</span></li>
+                                        </ul>
+                                        <p>
+                                            My skin produces excessive oil because of dryness and I have a lot of trouble
+                                            making my makeup My skin produces excessive oil because of dryness and I have a
+                                            lot of trouble making my makeupMy skin produces excessive oil because of dryness
+                                            and I have a lot of trouble making my makeupMy skink…
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="text-right like-review">Was this helpful? <i class="fa fa-thumbs-up" aria-hidden="true"></i> 12</p>
+                            </div>
+                            <div class="customer-reviews-item">
+                                <div class="review-wrapper">
+                                    <div class="customer-info">
+                                        <img src="img/customer-pic.png" alt="">
+                                        <p>Simon Lin</p>
+                                        <p><i class="fa fa-pencil" aria-hidden="true"></i> 24 Reviews</p>
+                                        <p><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                    </div>
+                                    <div class="review-body">
+                                        <h4>“Best Cleanser in it’s class”</h4>
+                                        <ul class="list-unstyled list-inline review-mark">
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                        <ul class="list-unstyled list-inline review-product-type">
+                                            <li>Skin Type: <span>Oily</span></li>
+                                            <li>Skin Concerns: <span>Anti-Aging,</span><span>Dehydrated</span></li>
+                                        </ul>
+                                        <p>
+                                            My skin produces excessive oil because of dryness and I have a lot of trouble
+                                            making my makeup My skin produces excessive oil because of dryness and I have a
+                                            lot of trouble making my makeupMy skin produces excessive oil because of dryness
+                                            and I have a lot of trouble making my makeupMy skink…
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="text-right like-review">Was this helpful? <i class="fa fa-thumbs-up" aria-hidden="true"></i> 12</p>
+                            </div>
+                            <div class="customer-reviews-item">
+                                <div class="review-wrapper">
+                                    <div class="customer-info">
+                                        <img src="img/customer-pic.png" alt="">
+                                        <p>Simon Lin</p>
+                                        <p><i class="fa fa-pencil" aria-hidden="true"></i> 24 Reviews</p>
+                                        <p><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                    </div>
+                                    <div class="review-body">
+                                        <h4>“Best Cleanser in it’s class”</h4>
+                                        <ul class="list-unstyled list-inline review-mark">
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                        <ul class="list-unstyled list-inline review-product-type">
+                                            <li>Skin Type: <span>Oily</span></li>
+                                            <li>Skin Concerns: <span>Anti-Aging,</span><span>Dehydrated</span></li>
+                                        </ul>
+                                        <p>
+                                            My skin produces excessive oil because of dryness and I have a lot of trouble
+                                            making my makeup My skin produces excessive oil because of dryness and I have a
+                                            lot of trouble making my makeupMy skin produces excessive oil because of dryness
+                                            and I have a lot of trouble making my makeupMy skink…
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="text-right like-review">Was this helpful? <i class="fa fa-thumbs-up" aria-hidden="true"></i> 12</p>
+                            </div>
+                            <div class="customer-reviews-item">
+                                <div class="review-wrapper">
+                                    <div class="customer-info">
+                                        <img src="img/customer-pic.png" alt="">
+                                        <p>Simon Lin</p>
+                                        <p><i class="fa fa-pencil" aria-hidden="true"></i> 24 Reviews</p>
+                                        <p><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                    </div>
+                                    <div class="review-body">
+                                        <h4>“Best Cleanser in it’s class”</h4>
+                                        <ul class="list-unstyled list-inline review-mark">
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                        <ul class="list-unstyled list-inline review-product-type">
+                                            <li>Skin Type: <span>Oily</span></li>
+                                            <li>Skin Concerns: <span>Anti-Aging,</span><span>Dehydrated</span></li>
+                                        </ul>
+                                        <p>
+                                            My skin produces excessive oil because of dryness and I have a lot of trouble
+                                            making my makeup My skin produces excessive oil because of dryness and I have a
+                                            lot of trouble making my makeupMy skin produces excessive oil because of dryness
+                                            and I have a lot of trouble making my makeupMy skink…
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="text-right like-review">Was this helpful? <i class="fa fa-thumbs-up" aria-hidden="true"></i> 12</p>
+                            </div>
+                        </div>
+                        <nav class="pagination" aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li>
+                                    <a class="pagination-controls" href="#" aria-label="Previous">
+                                        <span  aria-hidden="true">Previous</span>
+                                    </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a class="pagination-controls" href="#" aria-label="Next">
+                                        <span aria-hidden="true">Next</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="qa-section">
+                        <div class="qa-header">
+                            <div class="qa-header-left">
+                                <h4>Questions & Answers</h4>
+                                <p>35 questions</p>
+                                <p class="p-gray-2">21 Answered 14 Unaswered</p>
+                            </div>
+                            <div class="qa-header-right">
+                                <a href=""><i class="fa fa-flag" aria-hidden="true"></i></a>
+                                <button class="btn">Ask A Question</button>
+                            </div>
+                        </div>
+                        <div class="qa-main">
+                            <div class="customer-question">
+                                <img src="img/customer-pic.png" class="img-circle" alt="">
+                                <div class="customer-question-body">
+                                    <div class="customer-question-header">
+                                        <div>
+                                            <p>Simon Kin</p>
+                                            <p class="p-gray-2">30 minutes ago</p>
+                                        </div>
+                                        <button class="btn">Answer</button>
+                                    </div>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble
+                                        making my makeup My skin produces excessive oil because of dryness and I have a
+                                        lot of trouble making my makeupMy skin produces excessive oil because of dryness
+                                        and I have a lot of trouble making my makeupMy skin produces excessive
+                                    </p>
+                                    <p class="no-answer">No answer yet</p>
+                                </div>
+                            </div>
+                            <div class="customer-question">
+                                <img src="img/customer-pic.png" class="img-circle" alt="">
+                                <div class="customer-question-body">
+                                    <div class="customer-question-header">
+                                        <div>
+                                            <p>Kevin Chen</p>
+                                            <p>30 minutes ago</p>
+                                        </div>
+                                        <button class="btn">Answer</button>
+                                    </div>
+                                    <p>
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble
+                                        making my makeup My skin produces excessive oil because of dryness and I
+                                    </p>
+                                    <p class="show-answer">Show an answer(15)</p>
+                                </div>
+                            </div>
+                            <div class="customer-question">
+                                <img src="img/customer-pic.png" class="img-circle" alt="">
+                                <div class="customer-question-body">
+                                    <div class="customer-question-header">
+                                        <div>
+                                            <p>Kevin Chen</p>
+                                            <p>30 minutes ago</p>
+                                        </div>
+                                        <button class="btn">Answer</button>
+                                    </div>
+                                    <p>
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble
+                                        making my makeup My skin produces excessive oil because of dryness and I
+                                    </p>
+                                    <p class="hide-answer">Show an answer(15)</p>
+                                </div>
+                            </div>
+                            <div class="customer-answer">
+                                <img src="img/customer-pic.png" class="img-circle" alt="">
+                                <div class="customer-answer-body">
+                                    <div class="customer-answer-header">
+                                        <p>Kevin Chen</p>
+                                        <p class="p-gray-2">30 minutes ago</p>
+                                    </div>
+                                    <p>
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble
+                                        making my makeup My skin produces excessive oil because of dryness and I
+                                    </p>
+                                    <p class="text-right">Was this review helpful? <i class="fa fa-thumbs-up" aria-hidden="true"></i> 9</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="bottom-section">
+                        <div class="price-comparison">
+                            <div class="website-price">
+                                <h3>Mizon All in One Sanil And Bee Venom Price Comparision</h3>
+                                <table class="table table-responsive">
+                                    <tbody>
+                                    <tr>
+                                        <td><img src="img/amazon-logo.png" alt=""></td>
+                                        <td><p>Amazon</p></td>
+                                        <td><p class="p-gray-2">Ships from Korea - Free Shipping over 50 USD</p></td>
+                                        <td><p>$18.50</p></td>
+                                        <td><button class="btn">Shop</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/bonjour-logo.png" alt=""></td>
+                                        <td><p>Bonjour</p></td>
+                                        <td><p class="p-gray-2">Ships from Korea - Free Shipping over 50 USD</p></td>
+                                        <td><p>$18.50</p></td>
+                                        <td><button class="btn">Shop</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/dermstore-logo.png" alt=""></td>
+                                        <td><p>Dermstore</p></td>
+                                        <td><p class="p-gray-2">Ships from Korea - Free Shipping over 50 USD</p></td>
+                                        <td><p>$18.50</p></td>
+                                        <td><button class="btn">Shop</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/kollectionk-logo.png" alt=""></td>
+                                        <td><p>Kollectionk</p></td>
+                                        <td><p class="p-gray-2">Ships from Korea - Free Shipping over 50 USD</p></td>
+                                        <td><p>$18.50</p></td>
+                                        <td><button class="btn">Shop</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/imokoko-logo.png" alt=""></td>
+                                        <td><p>Imomoko</p></td>
+                                        <td><p class="p-gray-2">Ships from Korea - Free Shipping over 50 USD</p></td>
+                                        <td><p>$18.50</p></td>
+                                        <td><button class="btn">Shop</button></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p href="" class="text-center view-more">View more(+5 Stores)</p>
+                        </div>
+                        <div class="additional-info">
+                            <div class="additional-header">
+                                <h3>Mizon All in One Sanil And Bee Venom Ingredients</h3>
+                                <i class="fa fa-flag" aria-hidden="true"></i>
+                            </div>
+                            <p class="p-gray-2">
+                                My skin produces excessive oil because of dryness and I have a lot of trouble making my
+                                makeup My skin produces excessive oil because of dryness and I have a lot of trouble
+                                making my makeupMy skin produces excessive oil because of dryness and I have a lot of
+                                trouble making my makeupMy skin produces excessive oil because of dryness and I have a
+                                lot of trouble making my makeupMy sk…
+                            </p>
+                        </div>
+                        <div class="additional-products-photo">
+                            <div class="additional-header">
+                                <h3>Mizon All in One Sanil And Bee Venom Photos</h3>
+                                <button class="btn">Add Photo</button>
+                            </div>
+                            <ul class="list-inline list-unstyled">
+                                <li><img src="img/product-1.png" alt=""></li>
+                                <li><img src="img/product-2.png" alt=""></li>
+                                <li><img src="img/product-3.png" alt=""></li>
+                                <li><img src="img/product-4.png" alt=""></li>
+                                <li><img src="img/product-5.png" alt=""></li>
+
+                                <li><img src="img/product-6.png" alt=""></li>
+                                <li><img src="img/product-7.png" alt=""></li>
+                                <li><img src="img/product-8.png" alt=""></li>
+                                <li><img src="img/product-9.png" alt=""></li>
+                                <li><img src="img/product-10.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 hidden-xs">
+            <div class="right-section">
+                <div class="share-btn">
+                    <p class="p-heading">Share with your friend</p>
+                    <ul class="list-unstyled list-inline social-share-btn">
+                        <li><a href=""><img src="img/Group%206.png" alt=""></a></li>
+                        <li><a href=""><img src="img/share-twitter.png" alt=""></a></li>
+                        <li><a href=""><img src="img/share-facebook.png" alt=""></a></li>
+                        <li><a href=""><img src="img/share-instagram.png" alt=""></a></li>
+                        <li><a href=""><img src="img/share-interest.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="similar-product">
+                    <p class="p-heading">Similar Products</p>
+                    <ul class="list-unstyled">
+                        <li class="similar-product-item">
+                            <img src="img/similar-product.png" alt="">
+                            <div class="similar-product-title">
+                                <p>Mizon All In One</p>
+                                <div class="similar-product-rating">
+                                    <ul class="list-unstyled list-inline">
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <p>142 Reviews</p>
+                                </div>
+                            </div>
+                            <p class="similar-product-price">$15.99</p>
+                        </li>
+                        <li class="similar-product-item">
+                            <img src="img/similar-product.png" alt="">
+                            <div class="similar-product-title">
+                                <p>Mizon All In One</p>
+                                <div class="similar-product-rating">
+                                    <ul class="list-unstyled list-inline">
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <p>142 Reviews</p>
+                                </div>
+                            </div>
+                            <p class="similar-product-price">$15.99</p>
+                        </li>
+                        <li class="similar-product-item">
+                            <img src="img/similar-product.png" alt="">
+                            <div class="similar-product-title">
+                                <p>Mizon All In One</p>
+                                <div class="similar-product-rating">
+                                    <ul class="list-unstyled list-inline">
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <p>142 Reviews</p>
+                                </div>
+                            </div>
+                            <p class="similar-product-price">$15.99</p>
+                        </li>
+                        <li class="similar-product-item">
+                            <img src="img/similar-product.png" alt="">
+                            <div class="similar-product-title">
+                                <p>Mizon All In One</p>
+                                <div class="similar-product-rating">
+                                    <ul class="list-unstyled list-inline">
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <p>142 Reviews</p>
+                                </div>
+                            </div>
+                            <p class="similar-product-price">$15.99</p>
+                        </li>
+                        <li class="similar-product-item">
+                            <img src="img/similar-product.png" alt="">
+                            <div class="similar-product-title">
+                                <p>Mizon All In One</p>
+                                <div class="similar-product-rating">
+                                    <ul class="list-unstyled list-inline">
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <p>142 Reviews</p>
+                                </div>
+                            </div>
+                            <p class="similar-product-price">$15.99</p>
+                        </li>
+                        <li class="similar-product-item">
+                            <img src="img/similar-product.png" alt="">
+                            <div class="similar-product-title">
+                                <p>Mizon All In One</p>
+                                <div class="similar-product-rating">
+                                    <ul class="list-unstyled list-inline">
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <p>142 Reviews</p>
+                                </div>
+                            </div>
+                            <p class="similar-product-price">$15.99</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="resources-link">
+                <a href="">
+                    <h3>Confused?</h3>
+                    <p>Check Our Resources Section. </p>
+                </a>
+            </div>
+            <div class="skincare-blog-link">
+                <a href="">
+                    <h3>Do you blog about Skincare?</h3>
+                    <p>Feature your blog on Bawndo, find out here, extend your audience.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer-container">
+    <div class="row">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <h4>Skincarisma</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Help/FAQ</a></li>
+                            <li><a href="">Terms/Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <h4>Discovery</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Skincare Guide</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Community's Choice</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <h4>Follow Us</h4>
+                        <ul class="list-unstyled list-inline">
+                            <li>
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <h4>About Us</h4>
+                        <p>
+                            Figuring out ''what works'' can be overwhelming and confusing at times.
+                            At Favful, we believe there's a better way. We believe in a beauty advisory platform
+                            where we can empower each other in making informed beauty choices via
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center copyright">Copyright © 2017. Luronic Technologies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/lightslider.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/lightgallery/1.3.9/js/lightgallery.js"></script>
+<script src="js/script.js"></script>
+
+</body>
