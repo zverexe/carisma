@@ -18,21 +18,25 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .nav-bar .menu li {
+  .nav-bar .menu .menu-link {
     padding: 20px 0;
     margin: 0 20px;
     cursor: pointer; }
-    .nav-bar .menu li:first-child {
+    .nav-bar .menu .menu-link:first-child {
       margin-left: 0; }
   .nav-bar .menu a {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #4D4D4D;
-    cursor: pointer; }
-  .nav-bar .menu li:hover, .nav-bar .menu li:active {
+    cursor: pointer;
+    text-decoration: none !important; }
+  .nav-bar .menu .menu-link:hover, .nav-bar .menu .menu-link:active {
     padding-bottom: 17px;
     border-bottom: 3px solid #368FE9; }
-    .nav-bar .menu li:hover a, .nav-bar .menu li:active a {
+    .nav-bar .menu .menu-link:hover a, .nav-bar .menu .menu-link:active a {
       color: #4D4D4D; }
-  .nav-bar .social-links li:last-child {
+  .nav-bar .menu .dropdown-menu li a:hover {
+    color: #fff;
+    background-color: #368FE9; }
+  .nav-bar .social-links .menu-link:last-child {
     padding-right: 0; }

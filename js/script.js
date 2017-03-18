@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     $('#imageGallery').lightSlider({
         gallery:true,
         item:1,
@@ -8,7 +7,6 @@ $(document).ready(function() {
         slideMove: 2,
         thumbItem:4,
         slideMargin:0,
-
         currentPagerPosition:'middle',
         onSliderLoad: function(el) {
             el.lightGallery({
@@ -29,5 +27,8 @@ $(document).ready(function() {
         max: 1000,
         prefix: "$"
     });
+
+
 });
 
+$('[data-toggle="tooltip"]').tooltip();

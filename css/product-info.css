@@ -13,6 +13,9 @@
     margin-bottom: 10px; }
   .product-info .product-title .author-name {
     color: #368FE9; }
+  .product-info .product-title .btn {
+    background-color: #95E1D3;
+    color: #808080; }
   .product-info .product-rating {
     margin-top: 30px;
     margin-bottom: 20px; }
@@ -28,8 +31,8 @@
         -ms-flex-align: center;
             align-items: center; }
     .product-info .product-controls .btn {
-      background-color: inherit;
-      border: 1px solid #D4D4D4;
+      background-color: #F7F7F7;
+      border: 1px solid #E5E5E5;
       color: #4D4D4D;
       padding: 13px 25px; }
     .product-info .product-controls .add-to-wishlist {
