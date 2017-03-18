@@ -6,11 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/lightslider.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/lightgallery/1.3.9/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -37,7 +38,7 @@
                         <div class="search">
                             <img  class="search__icon" src="img/search.png" alt="">
                             <input type="text" class="form-control search__input" id="" placeholder="Search products">
-                            <button type="button" class="btn search__button">Search</button>
+                            <button type="button" class="btn search__button product-page-search">Search</button>
                         </div>
                     </div>
                     <div class="register">
@@ -55,16 +56,31 @@
             <div class="row">
                 <div class="col-sm-12 nav-bar">
                     <ul class="list-unstyled list-inline menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Skin Resources</a></li>
-                        <li><a href="">Community Forums</a></li>
-                        <li><a href="">Product Reviews</a></li>
+                        <li class="menu-link"><a href="">Home</a></li>
+
+                        <li class="menu-link">
+                            <div class="dropdown">
+                                <a href="" class="dropdown-toggle" type="button" id="dropdown-categories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Skin Resources
+                                    <span><i class="fa fa-chevron-down fa-1x" aria-hidden="true"></i></span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-categories">
+                                    <li><a href="#">Action</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-link"><a href="">Community Forums</a></li>
+                        <li class="menu-link"><a href="">Product Reviews</a></li>
                     </ul>
                     <ul class="list-unstyled list-inline social-links">
-                        <li><a href=""><img src="img/twitter.png" alt=""></a></li>
-                        <li><a href=""><img src="img/facebook.png" alt=""></a></li>
-                        <li><a href=""><img src="img/instagram.png" alt=""></a></li>
-                        <li><a href=""><img src="img/pinterest.png" alt=""></a></li>
+                        <li class="social-link-item" data-toggle="tooltip" data-placement="bottom" title="Twitter"><a href=""><img src="img/twitter.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Facebook"><a href=""><img src="img/facebook.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Instagram"><a href="" ><img src="img/instagram.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Pineterest"><a href=""><img src="img/pinterest.png" alt="" ></></li>
                     </ul>
                 </div>
             </div>
@@ -169,6 +185,7 @@
                                             <span class="sr-only">60% Complete</span>
                                         </div>
                                     </div>
+                                    <p class="progress-bar-qty">50%</p>
                                 </li>
                                 <li>
                                     <p class="progress-bar-mark">4 stars</p>
@@ -177,6 +194,7 @@
                                             <span class="sr-only">60% Complete</span>
                                         </div>
                                     </div>
+                                    <p class="progress-bar-qty">50%</p>
                                 </li>
                                 <li>
                                     <p class="progress-bar-mark"> 3 stars</p>
@@ -185,6 +203,7 @@
                                             <span class="sr-only">60% Complete</span>
                                         </div>
                                     </div>
+                                    <p class="progress-bar-qty">50%</p>
                                 </li>
                                 <li>
                                     <p class="progress-bar-mark">2 stars</p>
@@ -193,6 +212,7 @@
                                             <span class="sr-only">60% Complete</span>
                                         </div>
                                     </div>
+                                    <p class="progress-bar-qty">50%</p>
                                 </li>
                                 <li>
                                     <p class="progress-bar-mark">1 stars</p>
@@ -201,8 +221,8 @@
                                             <span class="sr-only">60% Complete</span>
                                         </div>
                                     </div>
+                                    <p class="progress-bar-qty">50%</p>
                                 </li>
-
                             </ul>
                         </div>
                         <div class="review-item review-source">
@@ -637,7 +657,7 @@
                     <div class="bottom-section">
                         <div class="price-comparison">
                             <div class="website-price">
-                                <h3>Mizon All in One Sanil And Bee Venom Price Comparision</h3>
+                                <h3 class="h3-20">Mizon All in One Sanil And Bee Venom Price Comparision</h3>
                                 <table class="table table-responsive">
                                     <tbody>
                                     <tr>
@@ -915,10 +935,12 @@
         </div>
     </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/jquery/3.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/lightgallery/1.3.9/js/lightgallery.js"></script>
 <script src="js/lightslider.min.js"></script>
+
 <script src="js/script.js"></script>
 
 </body>

@@ -64,6 +64,7 @@ a:hover{
   box-shadow: none;
   background-color: $white-1;
   margin-bottom:10px;
+  width: 50%;
 }
 .progress-bar{
   background-color: $yellow;
@@ -79,6 +80,15 @@ a:hover{
     padding-right: 0;
   }
 }
+
+
+.tooltip.bottom .tooltip-inner{
+  background-color: $primary-blu;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: $primary-blu;
+}
+
 @import "header.scss";
 @import "navbar.scss";
 @import "category.scss";

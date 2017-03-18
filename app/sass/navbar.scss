@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-between;
   .menu{
-    li{
+    .menu-link{
       padding: 20px 0;
       margin: 0 20px;
       cursor: pointer;
@@ -24,18 +24,27 @@
       font-size: 18px;
       color: $dark-2;
       cursor: pointer;
+      text-decoration: none !important;
 
     }
-    li:hover, li:active{
+    .menu-link:hover, .menu-link:active{
       padding-bottom: 17px;
       border-bottom: 3px solid $primary-blu;
       a{
         color: $dark-2;
       }
     }
+    .dropdown-menu{
+      li{
+        a:hover{
+            color: $primary-fff;
+            background-color: $primary-blu;
+          }
+      }
+    }
   }
   .social-links{
-    li:last-child{
+    .menu-link:last-child{
       padding-right: 0;
     }
   }

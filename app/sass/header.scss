@@ -55,6 +55,12 @@
       width: 115px;
       height: 32px;
     }
+    .product-page-search{
+      @extend  .search__button;
+      background-color: $buttons-fill-1;
+      color: $dark-2;
+      border: 1px solid $white-1;
+    }
   }
   .logo {
     color: $primary-fff;

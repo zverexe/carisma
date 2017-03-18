@@ -67,10 +67,14 @@
       }
     }
   }
-  .progress-bar-mark{
+  /*.progress-bar-mark{
     float: left;
     margin-right: 10px;
   }
+  .progress-bar-qty{
+    float: right;
+    margin-left: 10px;
+  }*/
   .review-item{
     width: 100%;
     //margin-right: 25px;
@@ -80,6 +84,8 @@
     }
     li{
       margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
     }
   }
   .review-item-title{
@@ -90,13 +96,13 @@
     color: $gray-2;
   }
   .review-source{
-    margin-left: 50px;
+    margin-left: 30px;
     width: 70%;
   }
   .recomendation{
     li{
       padding: 4px 17px;
-      background-color: $green;
+      background-color: $header-bgc;
       border-radius: 4px;
       p{
         color: $dark-1;
