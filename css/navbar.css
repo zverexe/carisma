@@ -3,7 +3,8 @@
  */
 .navigation {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  background-color: #fff; }
 
 .nav-bar {
   display: -webkit-box;
@@ -19,7 +20,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .nav-bar .menu .menu-link {
-    padding: 20px 0;
+    padding: 16px 0;
     margin: 0 20px;
     cursor: pointer; }
     .nav-bar .menu .menu-link:first-child {
@@ -31,7 +32,7 @@
     cursor: pointer;
     text-decoration: none !important; }
   .nav-bar .menu .menu-link:hover, .nav-bar .menu .menu-link:active {
-    padding-bottom: 17px;
+    padding-bottom: 13px;
     border-bottom: 3px solid #368FE9; }
     .nav-bar .menu .menu-link:hover a, .nav-bar .menu .menu-link:active a {
       color: #4D4D4D; }
