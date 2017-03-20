@@ -38,5 +38,5 @@
   .nav-bar .menu .dropdown-menu li a:hover {
     color: #fff;
     background-color: #368FE9; }
-  .nav-bar .social-links .menu-link:last-child {
-    padding-right: 0; }
+  .nav-bar .social-links li {
+    margin-left: 5px; }

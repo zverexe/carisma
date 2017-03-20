@@ -2,7 +2,8 @@
 * General css
 */
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  background-color: #FAFAFA; }
 
 h2, h3, ul {
   margin: 0; }
@@ -19,17 +20,27 @@ a:hover {
   text-decoration: none;
   color: inherit; }
 
-.p-heading {
-  font-size: 16px; }
-
 .p-gray-2 {
   color: #B2B2B2; }
+
+.dark-2 {
+  color: #4D4D4D; }
+
+.gray-3 {
+  color: #727272; }
+
+.block-title-2 {
+  font-size: 16px;
+  color: #4D4D4D; }
 
 .list-inline {
   margin-left: 0; }
 
 .form-control {
   border: 0; }
+
+.list-inline > li {
+  padding: 0; }
 
 .dropdown-menu {
   -webkit-box-shadow: none;
@@ -242,8 +253,8 @@ a:hover {
   .nav-bar .menu .dropdown-menu li a:hover {
     color: #fff;
     background-color: #368FE9; }
-  .nav-bar .social-links .menu-link:last-child {
-    padding-right: 0; }
+  .nav-bar .social-links li {
+    margin-left: 5px; }
 
 /*
 *  Category css rules
@@ -572,15 +583,19 @@ a:hover {
     font-weight: 500;
     margin-bottom: 15px; }
   .product-info .product-title p {
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
   .product-info .product-title .author-name {
     color: #368FE9; }
   .product-info .product-title .btn {
-    background-color: #95E1D3;
-    color: #808080; }
+    background-color: #EDEDED;
+    color: #808080;
+    padding-top: 2px;
+    padding-bottom: 2px; }
   .product-info .product-rating {
     margin-top: 30px;
     margin-bottom: 20px; }
+    .product-info .product-rating .fa-star {
+      color: #FFDD36; }
   .product-info .product-reviews-qty {
     color: #B2B2B2; }
   .product-info .product-controls {
@@ -596,11 +611,16 @@ a:hover {
       background-color: #F7F7F7;
       border: 1px solid #E5E5E5;
       color: #4D4D4D;
-      padding: 13px 25px; }
+      padding-left: 23px;
+      padding-right: 23px;
+      font-weight: 600; }
     .product-info .product-controls .add-to-wishlist {
-      margin: 0 20px; }
+      margin: 0 20px;
+      padding-right: 40px;
+      padding-left: 40px; }
+    .product-info .product-controls a {
+      color: #CCCCCC; }
     .product-info .product-controls .fa-flag {
-      color: #CCCCCC;
       margin-right: 10px; }
 
 .right-section {
@@ -636,7 +656,8 @@ a:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 19px; }
+    margin-top: 19px;
+    color: #FFDD36; }
     .right-section .similar-product .similar-product-rating .list-inline > li {
       padding: 0; }
     .right-section .similar-product .similar-product-rating p {
@@ -688,7 +709,7 @@ a:hover {
   .product-navigation a {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #4D4D4D;
+    color: #808080;
     cursor: pointer; }
   .product-navigation li:hover {
     border-bottom: 3px solid #CCCCCC;
@@ -737,9 +758,8 @@ a:hover {
         margin-left: 10px;
         color: #B2B2B2; }
       .product-reviews-section .product-rating-mark .total-rating i {
-        padding-right: 5px; }
-        .product-reviews-section .product-rating-mark .total-rating i:hover {
-          color: #FFDD36; }
+        padding-right: 5px;
+        color: #FFDD36; }
   .product-reviews-section .review-item {
     width: 100%;
     padding: 30px 0; }
@@ -763,13 +783,15 @@ a:hover {
   .product-reviews-section .review-source {
     margin-left: 30px;
     width: 70%; }
-  .product-reviews-section .recomendation li {
-    padding: 4px 17px;
-    background-color: #95E1D3;
-    -webkit-border-radius: 4px;
-            border-radius: 4px; }
-    .product-reviews-section .recomendation li p {
-      color: #808080; }
+  .product-reviews-section .recomendation {
+    margin-bottom: 20px; }
+    .product-reviews-section .recomendation li {
+      padding: 4px 17px;
+      background-color: #EDEDED;
+      -webkit-border-radius: 4px;
+              border-radius: 4px; }
+      .product-reviews-section .recomendation li p {
+        color: #808080; }
   .product-reviews-section .product-add-review {
     padding: 0 20px; }
     .product-reviews-section .product-add-review .reviews-options {
@@ -798,7 +820,8 @@ a:hover {
               align-items: center;
       padding-left: 0;
       margin-bottom: 10px;
-      font-size: 16px; }
+      font-size: 16px;
+      color: #4D4D4D; }
     .product-reviews-section .product-add-review .reviews-options-item .checkbox-inline input[type=checkbox] {
       position: relative;
       margin-left: 0;
@@ -841,8 +864,11 @@ a:hover {
       color: #FFDD36;
       font-size: 16px; }
   .product-reviews-section .add-review-btn {
-    background-color: #F17578;
-    color: #fff; }
+    background-color: #368FE9;
+    color: #fff;
+    font-weight: 600;
+    padding-right: 23px;
+    padding-left: 23px; }
   .product-reviews-section .add-review-btn-sm {
     margin-top: 20px;
     width: 100%;
@@ -854,8 +880,6 @@ a:hover {
   margin-top: 35px;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
-  .customer-reviews-section .list-inline > li:first-child {
-    padding-left: 0; }
   .customer-reviews-section .customer-reviews-item {
     margin-bottom: 20px; }
   .customer-reviews-section .customer-info i {
@@ -903,6 +927,8 @@ a:hover {
       color: #B2B2B2; }
     .customer-reviews-section .review-body h4 {
       color: #4D4D4D; }
+    .customer-reviews-section .review-body .review-mark {
+      color: #FFDD36; }
   .customer-reviews-section .like-review i {
     color: #368FE9;
     margin-left: 5px; }
