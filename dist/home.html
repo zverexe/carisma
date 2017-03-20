@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 header-top">
+                    <h2 class="logo">Skincarisma</h2>
+                    <div class="search-bar">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-categories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Product
+                                <span><i class="fa fa-chevron-down fa-1x" aria-hidden="true"></i></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown-categories">
+                                <li><a href="#">Action</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Another action</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <img  class="search__icon" src="img/search.png" alt="">
+                            <input type="text" class="form-control search__input" id="" placeholder="Search products">
+                            <button type="button" class="btn search__button product-page-search">Search</button>
+                        </div>
+                    </div>
+                    <div class="register">
+                        <button class="btn sign-up">Sign Up</button>
+                        <button class="btn login">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid navigation">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 nav-bar">
+                    <ul class="list-unstyled list-inline menu">
+                        <li class="menu-link"><a href="">Home</a></li>
+                        <li class="menu-link">
+                            <div class="dropdown">
+                                <a href="" class="dropdown-toggle" type="button" id="dropdown-categories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Skin Resources
+                                    <span><i class="fa fa-chevron-down fa-1x" aria-hidden="true"></i></span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-categories">
+                                    <li><a href="#">Action</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-link"><a href="">Community Forums</a></li>
+                        <li class="menu-link"><a href="">Product Reviews</a></li>
+                    </ul>
+                    <ul class="list-unstyled list-inline social-links">
+                        <li class="social-link-item" data-toggle="tooltip" data-placement="bottom" title="Twitter"><a href=""><img src="img/twitter.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Facebook"><a href=""><img src="img/facebook.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Instagram"><a href="" ><img src="img/instagram.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Pineterest"><a href=""><img src="img/pinterest.png" alt="" ></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid search-section">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="search-main">
+                        <h1>The Top 1 Skincare Resource in the World.</h1>
+                        <p>Discover Products, learn about skincare & shortcut your way to skincare greatness.</p>
+                        <div class="search-bar">
+                            <div class="dropdown">
+                                <div>
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-product" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Product
+                                        <span><i class="fa fa-chevron-down fa-1x" aria-hidden="true"></i></span>
+                                    </button>
+                                    <p>or view all products</p>
+                                </div>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-product">
+                                    <li><a href="#">Action</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="search">
+                                <img  class="search__icon" src="img/search.png" alt="">
+                                <input type="text" class="form-control search__input" id="" placeholder="Search products by brand or keywords">
+                                <button type="button" class="btn search__button">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="container">
+            <div class="row home-page-category">
+                <div class="col-sm-6">
+                    <h3>All about Skincarisma</h3>
+                    <p class="p-gray-2">
+                        Skincarisma Favful's success is based on its people. You want to be part of our extraordinary
+                        team? Handle challenging projects on a global stage? A job at Favful is not like any other job.
+                        If you want to learn with and from the best, Favful is the place to be. Skincarisma Favful's
+                        success is based on its people. You want to be part of our extraordinary team? Handle
+                        challenging projects on a global stage? A job at Favful is not like any other job.
+                        If you want to.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="discover-categories">
+                        <div class="discover-categories-header">
+                            <p class="block-title">Discover Product by Category</p>
+                            <a href="" class="view-more">View all categories <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="discover-categories-items">
+                            <ul class="list-unstyled list-inline">
+                                <li class="text-center">
+                                    <a href="">
+                                        <img src="img/category-img.png" alt="" class="img-circle">
+                                        <p>Cleanser</p>
+                                    </a>
+                                </li>
+                                <li class="text-center">
+                                    <a href="">
+                                        <img src="img/category-img.png" alt="" class="img-circle">
+                                        <p>Toner</p>
+                                    </a>
+                                </li>
+                                <li class="text-center">
+                                    <a href="">
+                                        <img src="img/category-img.png" alt="" class="img-circle">
+                                        <p>Moiuturizer</p>
+                                    </a>
+                                </li>
+                                <li class="text-center">
+                                    <a href="">
+                                        <img src="img/category-img.png" alt="" class="img-circle">
+                                        <p>Sunscreen</p>
+                                    </a>
+                                </li>
+                                <li class="text-center">
+                                    <a href="">
+                                        <img src="img/category-img.png" alt="" class="img-circle">
+                                        <p>Mosks</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid home-page-main">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="home-page-main-left">
+                        <p class="block-title">Be part of our Community</p>
+                        <div class="join-company text-center">
+                            <h3>Need advice? Want to Ask for Tips?</h3>
+                            <p>Have your questions answered.</p>
+                            <button class="btn">Be the community</button>
+                        </div>
+                        <div class="resources">
+                            <p class="block-title">Skincare Resources</p>
+                            <div class="resources-list">
+                                <ul class="list-unstyled ">
+                                    <li class="beginner">
+                                        <a href="">
+                                            <p>Complete Beginner?</p>
+                                        </a>
+                                    </li>
+                                    <li class="info-for-beginner">
+                                        <a href="">
+                                            <p>Everything a Beginner Needs to Know</p>
+                                        </a>
+                                    </li>
+                                    <li class="skin-type">
+                                        <a href="">
+                                            <p>Determine your Skin Type</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled ">
+                                    <li class="skincard">
+                                        <a href="">
+                                            <p>Skincard Dictionary</p>
+                                        </a>
+                                    </li>
+
+                                    <li class="guide">
+                                        <a href="">
+                                            <p>Product Guides</p>
+                                        </a>
+                                    </li>
+                                    <li class="acne-guide">
+                                        <a href="">
+                                            <p>Acne Guide</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn view-guide">View the entire skincare guide library</button>
+                        </div>
+                    </div>
+                    <div class="latest-blogs-wrapper">
+                        <p class="block-title">Lastest from our Blog</p>
+                        <ul class="list-unstyled latest-blogs-list">
+                            <li class="latest-blog-item">
+                                <img src="img/blog-1.png" alt="" class="img-rounded">
+                                <div class="latest-blog-body">
+                                    <h3 class="dark-2">6 things about Asian skin you didn’t know..</h3>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble
+                                        making my makeup le making my makeuple making my
+                                    </p>
+                                    <p class="pull-left dark-2">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i> 30 mins ago
+                                    </p>
+                                    <a href="" class="pull-right">Read more <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </div>
+                            </li>
+                            <li class="latest-blog-item">
+                                <img src="img/blog-2.png" alt="" class="img-rounded">
+                                <div class="latest-blog-body">
+                                    <h3 class="dark-2">6 things about Asian skin you didn’t know..</h3>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble
+                                        making my makeup le making my makeuple making my
+                                    </p>
+                                    <p class="pull-left">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        30 mins ago
+                                    </p>
+                                    <a href="" class="pull-right dark-2">Read more <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </div>
+                            </li>
+                            <li class="latest-blog-item">
+                                <img src="img/blog-3.png" alt="" class="img-rounded">
+                                <div class="latest-blog-body">
+                                    <h3 class="dark-2">6 things about Asian skin you didn’t know..</h3>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble
+                                        making my makeup le making my makeuple making my
+                                    </p>
+                                    <p class="pull-left dark-2">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        30 mins ago
+                                    </p>
+                                    <a href="" class="pull-right">Read more <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </div>
+                            </li>
+                            <li class="latest-blog-item">
+                                <img src="img/blog-4.png" alt="" class="img-rounded">
+                                <div class="latest-blog-body">
+                                    <h3 class="dark-2">6 things about Asian skin you didn’t know..</h3>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble
+                                        making my makeup le making my makeuple making my
+                                    </p>
+                                    <p class="pull-left dark-2">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        30 mins ago
+                                    </p>
+                                    <a href="" class="pull-right">Read more <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="latest-updates-section">
+                        <div class="latest-reviews-wrapper">
+                            <p class="block-title">Latest Reviews</p>
+                            <ul class="list-unstyled latest-reviews-list">
+                                <li class="latest-review">
+                                    <div class="latest-review-header">
+                                        <div class="user-info">
+                                            <img src="img/avatar-1.png" alt="" class="img-circle user-logo">
+                                            <div class="user-name">
+                                                <p class="dark-2">By S Tan</p>
+                                                <p class="p-gray-2">Combination skin, Olive. 25-35</p>
+                                            </div>
+                                        </div>
+                                        <div class="latest-review-time">
+                                            <p class="p-gray-2">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i> about 2 months ago
+                                            </p>
+                                            <ul class="list-unstyled list-inline text-right">
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p>The best glitter product I've ever tried for oily skin</p>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble making
+                                        my makeup
+                                    </p>
+                                </li>
+                                <li class="latest-review">
+                                    <div class="latest-review-header">
+                                        <div class="user-info">
+                                            <img src="img/avatar-2.png" alt="" class="img-circle user-logo">
+                                            <div class="user-name">
+                                                <p class="dark-2">By Nuratiqah Azmi</p>
+                                                <p class="p-gray-2">Combination skin, Olive. 25-35</p>
+                                            </div>
+                                        </div>
+                                        <div class="latest-review-time">
+                                            <p class="p-gray-2">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i> about 2 months ago
+                                            </p>
+                                            <ul class="list-unstyled list-inline text-right">
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p>Make Up For Ever Step 1 Hydrating Primer</p>
+                                    <p class="p-gray-2">
+                                        My skin is very dry but the primer kept it moisturize through out the day. The
+                                        primer alson smooth out the texture on my skin and kept...
+                                    </p>
+                                </li>
+                                <li class="latest-review">
+                                    <div class="latest-review-header">
+                                        <div class="user-info">
+                                            <img src="img/avatar-3.png" alt="" class="img-circle user-logo">
+                                            <div class="user-name">
+                                                <p class="dark-2">By Nicole Eugenia</p>
+                                                <p class="p-gray-2">Combination skin, Olive. 25-35</p>
+                                            </div>
+                                        </div>
+                                        <div class="latest-review-time">
+                                            <p class="p-gray-2">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i> 02/01/17, 5:56PM
+                                            </p>
+                                            <ul class="list-unstyled list-inline text-right">
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p>The best glitter product I've ever tried for oily skin</p>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble making
+                                        my makeup
+                                    </p>
+                                </li>
+                                <li class="latest-review">
+                                    <div class="latest-review-header">
+                                        <div class="user-info">
+                                            <img src="img/avatar-4.png" alt="" class="img-circle user-logo">
+                                            <div class="user-name">
+                                                <p class="dark-2">By S Tan</p>
+                                                <p class="p-gray-2">Combination skin, Olive. 25-35</p>
+                                            </div>
+                                        </div>
+                                        <div class="latest-review-time">
+                                            <p class="p-gray-2">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i> 22/12/16, 5:42PM
+                                            </p>
+                                            <ul class="list-unstyled list-inline text-right">
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p>The best glitter product I've ever tried for oily skin</p>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble making
+                                        my makeup
+                                    </p>
+                                </li>
+                                <li class="latest-review">
+                                    <div class="latest-review-header">
+                                        <div class="user-info">
+                                            <img src="img/avatar-5.png" alt="" class="img-circle user-logo">
+                                            <div class="user-name">
+                                                <p class="dark-2">By S Tan</p>
+                                                <p class="p-gray-2">Combination skin, Olive. 25-35</p>
+                                            </div>
+                                        </div>
+                                        <div class="latest-review-time">
+                                            <p class="p-gray-2">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i> about 2 months ago
+                                            </p>
+                                            <ul class="list-unstyled list-inline text-right">
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p>The best glitter product I've ever tried for oily skin</p>
+                                    <p class="p-gray-2">
+                                        My skin produces excessive oil because of dryness and I have a lot of trouble making
+                                        my makeup
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="latest-discussion-wrapper">
+                            <p class="block-title">Lastest Community Discussion</p>
+                            <ul class="list-unstyled discussion-list">
+                                <li class="latest-discussion-item">
+                                    <div>
+                                        <img src="img/avatar-6.png" alt="" class="img-circle user-logo">
+                                    </div>
+                                    <div>
+                                    <p class="dark-2">Dentists Are Smiling Over Painless Alternative</p>
+                                    <p class="p-gray-2">
+                                        I love this palette soo much.I got mine in the shade no.4 for contouring. This
+                                        comes with 5 colours with a balance…
+                                    </p>
+                                    <p class="pull-left">By Kevin Duncan</p>
+                                    <p class="pull-right">54 Mins ago</p>
+                                    </div>
+                                </li>
+                                <li class="latest-discussion-item">
+                                    <div>
+                                        <img src="img/avatar-7.png" alt="" class="img-circle user-logo">
+                                    </div>
+                                    <div>
+                                        <p class="dark-2">Free Beauty Samples What They Are And How To</p>
+                                        <p class="p-gray-2">
+                                            I love this palette soo much.I got mine in the shade no.4 for contouring. This
+                                            comes with 5 colours with a balance…
+                                        </p>
+                                        <p class="pull-left">By Mason Chavez</p>
+                                        <p class="pull-right">54 Mins ago</p>
+                                    </div>
+                                </li>
+                                <li class="latest-discussion-item">
+                                    <div>
+                                        <img src="img/avatar-8.png" alt="" class="img-circle user-logo">
+                                    </div>
+                                    <div>
+                                        <p class="dark-2">Watches Time Pieces Of Eternity</p>
+                                        <p class="p-gray-2">
+                                            I love this palette soo much.I got mine in the shade no.4 for contouring. This
+                                            comes with 5 colours with a balance…
+                                        </p>
+                                        <p class="pull-left">By Aaron Sullivan</p>
+                                        <p class="pull-right">54 Mins ago</p>
+                                    </div>
+                                </li>
+                                <li class="latest-discussion-item">
+                                    <div>
+                                        <img src="img/avatar-9.png" alt="" class="img-circle user-logo">
+                                    </div>
+                                    <div>
+                                        <p class="dark-2">Beauty Pageants Should You Let Your Teen Enter</p>
+                                        <p class="p-gray-2">
+                                            I love this palette soo much.I got mine in the shade no.4 for contouring. This
+                                            comes with 5 colours with a balance…
+                                        </p>
+                                        <p class="pull-left">By Marc Delgado</p>
+                                        <p class="pull-right">54 Mins ago</p>
+                                    </div>
+                                </li>
+                                <li class="latest-discussion-item">
+                                    <div>
+                                        <img src="img/avatar-10.png" alt="" class="img-circle user-logo">
+                                    </div>
+                                    <div>
+                                        <p class="dark-2">What Is Botox</p>
+                                        <p class="p-gray-2">
+                                            I love this palette soo much.I got mine in the shade no.4 for contouring. This
+                                            comes with 5 colours with a balance…
+                                        </p>
+                                        <p class="pull-left">By Harvey Nelson</p>
+                                        <p class="pull-right">54 Mins ago</p>
+                                    </div>
+                                </li>
+                                <li class="latest-discussion-item">
+                                    <div>
+                                        <img src="img/avatar-11.png" alt="" class="img-circle user-logo">
+                                    </div>
+                                    <div>
+                                        <p class="dark-2">Curling Irons Are As Individual As TheWomen..</p>
+                                        <p class="p-gray-2">
+                                            I love this palette soo much.I got mine in the shade no.4 for contouring. This
+                                            comes with 5 colours with a balance…
+                                        </p>
+                                        <p class="pull-left">By James Holt</p>
+                                        <p class="pull-right">54 Mins ago</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row home-page-bottom">
+        <div class="col-sm-4">
+            <p class="block-title">Featured User of Month</p>
+            <ul class="list-unstyled bottom-section-list">
+                <li class="top-user">
+                    <img src="img/avatar-25.png" alt="" class="img-circle">
+                    <div class="top-user-info">
+                        <p class="dark-2">Leo Howard</p>
+                        <p class="gray-3">Oil/Conbination Skin</p>
+                        <p class="p-gray-2">5000 Carisma</p>
+                    </div>
+                </li>
+                <li class="top-user">
+                    <img src="img/avatar-24.png" alt="" class="img-circle">
+                    <div class="top-user-info">
+                        <p class="dark-2">Simon Lin</p>
+                        <p class="gray-3">Oil/Conbination Skin</p>
+                        <p class="p-gray-2">5000 Carisma</p>
+                    </div>
+                </li>
+                <li class="top-user">
+                    <img src="img/avatar-23.png" alt="" class="img-circle">
+                    <div class="top-user-info">
+                        <p class="dark-2">Kevin Chen</p>
+                        <p class="gray-3">Oil/Conbination Skin</p>
+                        <p class="p-gray-2">5000 Carisma</p>
+                    </div>
+                </li>
+                <li class="top-user">
+                    <img src="img/avatar-21.png" alt="" class="img-circle">
+                    <div class="top-user-info">
+                        <p class="dark-2">Leo Howard</p>
+                        <p class="gray-3">Oil/Conbination Skin</p>
+                        <p class="p-gray-2">5000 Carisma</p>
+                    </div>
+                </li>
+                <li class="top-user">
+                    <img src="img/avatar-20.png" alt="" class="img-circle">
+                    <div class="top-user-info">
+                        <p class="dark-2">Leo Howard</p>
+                        <p class="gray-3">Oil/Conbination Skin</p>
+                        <p class="p-gray-2">5000 Carisma</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <p class="block-title">Trending Products</p>
+            <ul class="list-unstyled bottom-section-list">
+                <li class="popular-product">
+                    <img src="img/image-25.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                        </ul>
+                        <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="popular-product">
+                    <img src="img/image-24.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="popular-product">
+                    <img src="img/image-23.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="popular-product">
+                    <img src="img/image-22.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="popular-product">
+                    <img src="img/image-20.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <p class="block-title">All Time Favourites</p>
+            <ul class="list-unstyled bottom-section-list">
+                <li class="popular-product">
+                    <img src="img/image-25.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="popular-product">
+                    <img src="img/image-24.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="popular-product">
+                    <img src="img/image-23.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="popular-product">
+                    <img src="img/image-22.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="popular-product">
+                    <img src="img/image-20.png" alt="">
+                    <div class="popular-product-info">
+                        <p>Dior</p>
+                        <p class="gray-3">Intensive Repairing Black Cotton</p>
+                        <div class="popular-product-footer">
+                            <ul class="list-unstyled list-inline">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <p class="p-gray-2">Based on 24 Reviews</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer-container">
+    <div class="row">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <h4>Skincarisma</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Help/FAQ</a></li>
+                            <li><a href="">Terms/Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <h4>Discovery</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Skincare Guide</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Community's Choice</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <h4>Follow Us</h4>
+                        <ul class="list-unstyled list-inline">
+                            <li>
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <h4>About Us</h4>
+                        <p>
+                            Figuring out ''what works'' can be overwhelming and confusing at times.
+                            At Favful, we believe there's a better way. We believe in a beauty advisory platform
+                            where we can empower each other in making informed beauty choices via
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center copyright">Copyright © 2017. Luronic Technologies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/lightgallery/1.3.9/js/lightgallery.js"></script>
+<script src="js/lightslider.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

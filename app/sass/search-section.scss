@@ -1,0 +1,60 @@
+@import "variables";
+
+.search-section{
+  min-height: 344px;
+  background: url(../img/Rectangle.png) no-repeat;
+  background-size: cover;
+  .search-main{
+    padding: 70px 0 105px 0;
+    color: $primary-fff;
+    p{
+      margin-bottom: 20px;
+    }
+    .search-bar {
+      display: flex;
+      .dropdown-toggle{
+        display: flex;
+        justify-content: space-between;
+        height: 56px;
+        font-size: 18px;
+        margin-right: 5px;
+        width: 144px;
+        border: $border;
+      }
+      .search {
+        @extend .search-bar;
+        position: relative;
+        width: 496px;
+      }
+      .search__icon{
+        position: absolute;
+        top: 16px;
+        left: 15px;
+      }
+      .search__input{
+        height: 56px;
+        border-radius: 3px;
+        text-indent: 30px;
+        color: $gray-3;
+        font-weight: 400;
+      }
+      .search__button{
+        position: absolute;
+        top: 4px;
+        right: 5px;
+        border-radius: 3px;
+        color: $primary-fff;
+        background-color: $primary-blu;
+        font-size: 14px;
+        width: 115px;
+        height: 48px;
+      }
+      .product-page-search{
+        @extend  .search__button;
+        background-color: $buttons-fill-1;
+        color: $dark-2;
+        border: 1px solid $white-1;
+      }
+    }
+  }
+}

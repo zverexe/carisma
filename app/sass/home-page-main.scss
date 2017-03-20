@@ -1,0 +1,111 @@
+@import "variables";
+
+.home-page-main{
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid $gray-1;
+  .home-page-main-left{
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid $gray-1;
+  }
+  .join-company{
+    padding: 60px 80px;
+    background: url(../img/image-10.png) no-repeat center center;
+    background-size: cover;
+    color: $primary-fff;
+    margin: 20px 0;
+    border-radius: 4px;
+    p{
+      margin: 16px 0;
+    }
+    .btn{
+      background-color: $primary-pink;
+    }
+    .join-company-text{
+      position: absolute;
+      top: 60px;
+      left: 140px;
+    }
+  }
+  .resources{
+    ul{
+      margin-top: 20px;
+      width: 50%;
+      &:first-child{
+        margin-right: 9px;
+      }
+    }
+    .resources-list{
+      display: flex;
+
+    }
+    li{
+      width: 100%;
+      height:120px;
+      margin-bottom: 9px;
+      color: $primary-fff;
+      font-size: 18px;
+      padding-top: 20px;
+      padding-left: 15px;
+      border-radius: 4px;
+      &:last-child{
+        margin-bottom: 15px;
+      }
+    }
+    .beginner{
+      background: url(../img/image.png) no-repeat ;
+      background-size: cover;
+    }
+    .info-for-beginner{
+      background: url(../img/image-17.png) no-repeat ;
+      background-size: cover;
+    }
+    .skin-type{
+      background: url(../img/image-12.png) no-repeat ;
+      background-size: cover;
+    }
+    .skincard{
+      background: url(../img/image-13.png) no-repeat ;
+      background-size: cover;
+    }
+    .guide{
+      background: url(../img/image-14.png) no-repeat ;
+      background-size: cover;
+    }
+    .acne-guide{
+      background: url(../img/image-15.png) no-repeat ;
+      background-size: cover;
+    }
+  }
+  .view-guide{
+    background-color: $primary-fff;
+    border: 1px solid $primary-blu;
+    color: $primary-blu;
+    width: 100%;
+  }
+  .latest-blogs-wrapper{
+
+    .latest-blogs-list{
+      margin-top: 15px;
+    }
+    .latest-blog-item{
+      display: flex;
+      margin-bottom: 25px;
+      img{
+        margin-right: 23px;
+      }
+      h3{
+        margin-bottom: 10px;
+        @include h3-20;
+      }
+      .p-gray-2{
+        margin-bottom: 30px;
+      }
+      a{
+        color: $primary-blu;
+      }
+    }
+  }
+
+}

@@ -14,6 +14,7 @@ h2, h3, ul{
 p{
   margin: 0;
   font-family: 'Roboto', sans-serif;
+
 }
 
 a{
@@ -38,6 +39,11 @@ a:hover{
 .block-title-2{
   font-size: 16px;
   color: $dark-2;
+}
+
+.block-title{
+  font-size: 16px;
+  color: $dark-1;
 }
 .list-inline{
   margin-left: 0;
@@ -95,6 +101,11 @@ a:hover{
   }
 }
 
+.nav-bar{
+  .list-inline>li:last-child{
+    padding-right: 0;
+  }
+}
 
 .tooltip.bottom .tooltip-inner{
   background-color: $primary-blu;
@@ -116,7 +127,11 @@ a:hover{
 @import "customer-reviews";
 @import "bottom-section";
 @import "qa-section";
-
+@import "search-section";
+@import "home-page-category";
+@import "home-page-main";
+@import "home-reviews-section";
+@import "home-page-bottom";
 
 /*
 * Media styles
@@ -154,6 +169,19 @@ a:hover{
     .additional-products-photo{
       ul{
         text-align: center;
+      }
+    }
+  }
+  .latest-updates-section{
+    .latest-review-header{
+      font-size: 12px;
+    }
+  }
+  .home-page-bottom{
+    .popular-product{
+      .popular-product-footer{
+        flex-direction: column;
+        align-items: inherit;
       }
     }
   }
@@ -263,4 +291,5 @@ a:hover{
       }
     }
   }
+
 }

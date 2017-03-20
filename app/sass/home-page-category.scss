@@ -1,0 +1,33 @@
+@import "variables";
+
+.home-page-category{
+  padding: 50px 0;
+  .discover-categories{
+    box-shadow: $general-box-shadow;
+
+  }
+  h3{
+    @include h3-20;
+    margin-bottom: 14px;
+  }
+  .discover-categories-header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .view-more{
+    color: $primary-blu;
+  }
+  .discover-categories-items{
+    ul{
+      display: flex;
+      justify-content:space-around;
+      flex-wrap: wrap;
+      padding: 30px 0;
+    }
+    img{
+      width: 72px;
+      height: 72px;
+    }
+
+  }
+}
