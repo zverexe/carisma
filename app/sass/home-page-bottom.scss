@@ -1,0 +1,44 @@
+@import "variables";
+
+.home-page-bottom{
+  .bottom-item{
+    background-color: $primary-fff;
+  }
+  .bottom-section-list{
+    padding: 8px 0;
+    margin: 16px 0 60px 0;
+    box-shadow: $general-box-shadow;
+  }
+  .top-user{
+    display: flex;
+    margin: 0 8px;
+    padding: 12px;
+    cursor: pointer;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    &:hover{
+      background-color: $light-green;
+      border-radius: 4px;
+    }
+    img{
+      width: 64px;
+      height: 64px;
+      margin-right: 15px;
+    }
+  }
+  .popular-product{
+    @extend .top-user;
+    .popular-product-info{
+      width: 100%;
+    }
+    .popular-product-footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     i{
+       color: $yellow;
+     }
+    }
+  }
+}

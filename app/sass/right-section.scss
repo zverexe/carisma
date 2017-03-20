@@ -1,0 +1,63 @@
+@import "_variables";
+
+.right-section{
+  @include section-background;
+  .social-btn-list{
+    padding: 15px 0 0 0;
+  }
+  .share-btn{
+    border-bottom: 1px solid $gray-1;
+    li{
+      padding-right: 8px;
+    }
+  }
+  .share-btn-wrapper{
+    padding: 24px;
+  }
+  .similar-product{
+    padding: 24px;
+    .similar-product-item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    .similar-product-rating{
+      display: flex;
+      margin-top: 19px;
+      color: $yellow;
+
+      p{
+        color: $gray-2;
+        align-items: center;
+        margin-left: 8px;
+      }
+     }
+    .similar-product-list{
+      margin-top: 10px;
+    }
+  }
+}
+.resources-link, .skincare-blog-link{
+  width: 100%;
+  padding: 16px;
+  height: 120px;
+  color: $primary-fff;
+  border-radius: 4px;
+  h3{
+    font-weight: 400;
+  }
+}
+.resources-link{
+  margin-top: 50px;
+  margin-bottom: 16px;
+  background-color: $header-bgc;
+}
+.skincare-blog-link{
+  p{
+    margin-top: 10px;
+  }
+}

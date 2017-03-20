@@ -13,7 +13,7 @@
   justify-content: space-between;
   .menu{
     .menu-link{
-      padding: 20px 0;
+      padding: 16px 0;
       margin: 0 20px;
       cursor: pointer;
       &:first-child{
@@ -29,7 +29,7 @@
 
     }
     .menu-link:hover, .menu-link:active{
-      padding-bottom: 17px;
+      padding-bottom: 13px;
       border-bottom: 3px solid $primary-blu;
       a{
         color: $dark-2;

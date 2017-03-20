@@ -15,16 +15,18 @@
   justify-content: space-between;
   padding-top: 50px;
   .footer-item{
-    h4{
-      color: $dark-1;
+    .footer-item-title{
+      color: $header-bgc;
       margin-bottom: 20px;
       font-weight: 400;
+      font-size: 16px;
     }
     a, p{
       color: $primary-fff;
     }
     li{
       margin-bottom: 15px;
+      margin-right: 16px;
     }
     i{
       background-color: $primary-fff;

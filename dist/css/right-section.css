@@ -1,47 +1,49 @@
 .right-section {
-  padding: 0 25px 24px;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
-  .right-section .social-share-btn {
-    padding: 18px 0 25px 0;
-    margin-bottom: 25px;
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  background-color: #fff; }
+  .right-section .social-btn-list {
+    padding: 15px 0 0 0; }
+  .right-section .share-btn {
     border-bottom: 1px solid #D4D4D4; }
-  .right-section .list-inline > li:first-child {
-    padding-left: 0; }
-  .right-section .similar-product .p-heading {
-    margin-bottom: 14px; }
-  .right-section .similar-product .similar-product-item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: 16px; }
-    .right-section .similar-product .similar-product-item:last-child {
-      margin-bottom: 0; }
-  .right-section .similar-product .similar-product-rating {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 19px;
-    color: #FFDD36; }
-    .right-section .similar-product .similar-product-rating .list-inline > li {
-      padding: 0; }
-    .right-section .similar-product .similar-product-rating p {
-      color: #B2B2B2;
+    .right-section .share-btn li {
+      padding-right: 8px; }
+  .right-section .share-btn-wrapper {
+    padding: 24px; }
+  .right-section .similar-product {
+    padding: 24px; }
+    .right-section .similar-product .similar-product-item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
       -webkit-box-align: center;
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center;
-      margin-left: 8px; }
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      margin-bottom: 16px; }
+      .right-section .similar-product .similar-product-item:last-child {
+        margin-bottom: 0; }
+    .right-section .similar-product .similar-product-rating {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 19px;
+      color: #FFDD36; }
+      .right-section .similar-product .similar-product-rating p {
+        color: #B3B3B3;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-left: 8px; }
+    .right-section .similar-product .similar-product-list {
+      margin-top: 10px; }
 
 .resources-link, .skincare-blog-link {
   width: 100%;
@@ -58,7 +60,5 @@
   margin-bottom: 16px;
   background-color: #95E1D3; }
 
-.skincare-blog-link {
-  background-color: #368FE9; }
-  .skincare-blog-link p {
-    margin-top: 10px; }
+.skincare-blog-link p {
+  margin-top: 10px; }

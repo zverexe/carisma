@@ -4,7 +4,11 @@
 */
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: $white-2;
+  background-color: $general-background;
+}
+
+strong{
+  font-weight: 500;
 }
 
 h2, h3, ul{
@@ -36,6 +40,9 @@ a:hover{
 .gray-3{
   color: $gray-3;
 }
+.dark-1{
+  color: $dark-1;
+}
 .block-title-2{
   font-size: 16px;
   color: $dark-2;
@@ -57,6 +64,13 @@ a:hover{
   padding: 0;
 }
 
+.primary-button{
+  background-color: $blu-1;
+  color: $primary-fff;
+}
+.primary-blu-color{
+  background-color: $blu-1;
+}
 .dropdown-menu{
   box-shadow: none;
   border: 0;
@@ -81,7 +95,7 @@ a:hover{
   border-radius: 0;
   box-shadow: none;
   background-color: $white-1;
-  margin-bottom:10px;
+  margin-bottom:0px;
   width: 50%;
 }
 .progress-bar{
@@ -114,6 +128,13 @@ a:hover{
   border-bottom-color: $primary-blu;
 }
 
+.tooltip.right .tooltip-inner{
+  background-color: $primary-blu;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: $primary-blu;
+}
+
 @import "header.scss";
 @import "navbar.scss";
 @import "category.scss";
@@ -121,17 +142,17 @@ a:hover{
 @import "product-list.scss";
 @import "footer";
 @import "breadcrump";
-@import "product-page/product-info";
-@import "product-page/right-section";
-@import "product-page/product-page-reviews";
+@import "product-info";
+@import "right-section";
+@import "product-page-reviews";
 @import "customer-reviews";
-@import "product-page/bottom-section";
-@import "product-page/qa-section";
+@import "bottom-section";
+@import "qa-section";
 @import "search-section";
-@import "home-page/home-page-category";
-@import "home-page/home-page-main";
-@import "home-page/home-reviews-section";
-@import "home-page/home-page-bottom";
+@import "home-page-category";
+@import "home-page-main";
+@import "home-reviews-section";
+@import "home-page-bottom";
 
 /*
 * Media styles

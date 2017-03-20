@@ -1,0 +1,67 @@
+@import "_variables";
+
+.lSSlideOuter .lSPager.lSGallery{
+  padding-top: 18px;
+}
+.product-info{
+  color: $dark-2;
+  box-shadow: $general-box-shadow;
+  padding:24px;
+  background-color: $primary-fff;
+  display: flex;
+  justify-content: space-between;
+  .product-image{
+    width: 41%;
+  }
+  .product-title{
+    h3{
+      font-weight:500;
+      margin-bottom: 15px;
+    }
+    p{
+      margin-bottom: 5px;
+
+    }
+    .author-name{
+      color: $primary-blu;
+    }
+    .btn{
+      background-color: $white-3;
+      color: $dark-1;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+  }
+  .product-rating{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    .fa-star{
+      color: $yellow;
+    }
+  }
+  .product-reviews-qty{
+    color: $gray-2;
+  }
+  .product-controls{
+    display: flex;
+    align-items: center;
+    .btn{
+      background-color: $buttons-fill-1;
+      border: 1px solid $white-1;
+      color: rgba(77, 77, 77, 0.7);
+      padding-left: 23px;
+      padding-right: 23px;
+    }
+    .add-to-wishlist{
+      margin: 0 20px;
+      padding-right: 40px;
+      padding-left: 40px ;
+    }
+    a{
+      color: $gray-4;
+    }
+    .fa-flag{
+      margin-right: 10px;
+    }
+  }
+}

@@ -11,8 +11,8 @@
 .latest-updates-section .latest-reviews-list {
   margin-top: 20px; }
 
-.latest-updates-section .latest-review-time .list-inline > li {
-  padding: 0; }
+.latest-updates-section .latest-review-time {
+  color: #FFDD36; }
 
 .latest-updates-section .latest-review {
   margin-bottom: 30px; }

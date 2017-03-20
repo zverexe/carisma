@@ -1,4 +1,5 @@
 $primary-blu: #368FE9;
+$blu-1:#488de8;
 $border: 1px solid #e7e7e7;
 $general-background:  #FAFAFA;
 $gray-1: #D4D4D4;
@@ -6,7 +7,8 @@ $primary-fff: #fff;
 $primary-pink: #F17578;
 $green: #00b4aa;
 $header-bgc: #95E1D3;
-$gray-2: #B2B2B2;
+$light-green:#ebf9f6;
+$gray-2: #B3B3B3;
 $gray-3: #727272;
 $dark-1: #808080;
 $dark-2: #4D4D4D;
@@ -18,7 +20,12 @@ $gray-4: #CCCCCC;
 $general-box-shadow: 0 0px 0px 0 rgba(0,0,0,0.14), 0 0px 0px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
 $buttons-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 $buttons-fill-1: #F7F7F7;
+
 @mixin h3-20{
   font-size: 20px;
   color: $dark-2;
+}
+@mixin section-background{
+  box-shadow: $general-box-shadow;
+  background-color: $primary-fff;
 }

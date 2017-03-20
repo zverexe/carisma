@@ -1,7 +1,8 @@
 .home-page-main {
-  padding-bottom: 60px;
+  padding-top: 64px;
   margin-bottom: 60px;
-  border-bottom: 1px solid #D4D4D4; }
+  border-bottom: 1px solid #D4D4D4;
+  background-color: #fff; }
   .home-page-main .home-page-main-left {
     padding-bottom: 40px;
     margin-bottom: 35px;
@@ -17,7 +18,7 @@
     .home-page-main .join-company p {
       margin: 16px 0; }
     .home-page-main .join-company .btn {
-      background-color: #F17578; }
+      background-color: #488de8; }
     .home-page-main .join-company .join-company-text {
       position: absolute;
       top: 60px;
@@ -32,6 +33,9 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
+    .home-page-main .resources .resources-list .btn {
+      margin-top: 10px;
+      background-color: #488de8; }
   .home-page-main .resources li {
     width: 100%;
     height: 120px;
