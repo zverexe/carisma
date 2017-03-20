@@ -1,0 +1,60 @@
+@import "variables";
+
+.latest-updates-section{
+  .user-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .latest-reviews-wrapper{
+    border-bottom: 1px solid $gray-1;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .latest-reviews-list{
+    margin-top: 20px;
+  }
+  .latest-review-time{
+    .list-inline>li{
+      padding: 0;
+    }
+  }
+  .latest-review{
+    margin-bottom: 30px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  .latest-review-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    .user-info{
+      display: flex;
+    }
+  }
+  .latest-discussion-wrapper{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    .discussion-list{
+      margin-top: 20px;
+    }
+    .latest-discussion-item{
+      display: flex;
+      margin-bottom: 30px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+      .p-gray-2{
+        margin-top: 10px;
+      }
+      .dark-2{
+        font-size: 16px;
+      }
+      .pull-left, .pull-right{
+        color: $dark-2;
+      }
+    }
+  }
+}
+
