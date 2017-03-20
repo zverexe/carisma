@@ -4,7 +4,7 @@
 */
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: $general-background;
+  background-color: $white-2;
 }
 
 h2, h3, ul{
@@ -121,17 +121,17 @@ a:hover{
 @import "product-list.scss";
 @import "footer";
 @import "breadcrump";
-@import "product-info";
-@import "right-section";
-@import "product-page-reviews";
+@import "product-page/product-info";
+@import "product-page/right-section";
+@import "product-page/product-page-reviews";
 @import "customer-reviews";
-@import "bottom-section";
-@import "qa-section";
+@import "product-page/bottom-section";
+@import "product-page/qa-section";
 @import "search-section";
-@import "home-page-category";
-@import "home-page-main";
-@import "home-reviews-section";
-@import "home-page-bottom";
+@import "home-page/home-page-category";
+@import "home-page/home-page-main";
+@import "home-page/home-reviews-section";
+@import "home-page/home-page-bottom";
 
 /*
 * Media styles
