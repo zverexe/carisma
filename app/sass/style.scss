@@ -4,6 +4,7 @@
 */
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: $general-background;
 }
 
 h2, h3, ul{
@@ -25,12 +26,18 @@ a:hover{
   color: inherit;
 }
 
-.p-heading{
-  font-size: 16px;
-}
-
 .p-gray-2{
   color: $gray-2;
+}
+.dark-2{
+  color: $dark-2;
+}
+.gray-3{
+  color: $gray-3;
+}
+.block-title-2{
+  font-size: 16px;
+  color: $dark-2;
 }
 .list-inline{
   margin-left: 0;
@@ -38,6 +45,10 @@ a:hover{
 
 .form-control{
   border: 0;
+}
+
+.list-inline > li {
+  padding: 0;
 }
 
 .dropdown-menu{
@@ -59,6 +70,7 @@ a:hover{
     }
   }
 }
+
 .progress{
   border-radius: 0;
   box-shadow: none;

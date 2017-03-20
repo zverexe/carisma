@@ -31,7 +31,8 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 19px; }
+    margin-top: 19px;
+    color: #FFDD36; }
     .right-section .similar-product .similar-product-rating .list-inline > li {
       padding: 0; }
     .right-section .similar-product .similar-product-rating p {

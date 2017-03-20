@@ -3,9 +3,6 @@
   padding: 0 20px 130px 20px;
   margin-top: 35px;
   box-shadow: $general-box-shadow;
-  .list-inline > li:first-child {
-    padding-left: 0;
-  }
   .customer-reviews-item {
     margin-bottom: 20px;
   }
@@ -24,7 +21,6 @@
     span {
       color: #B2B2B2;
     }
-
     .clear-filters {
       color: #368FE9;
     }
@@ -49,13 +45,14 @@
     border: 1px solid #D4D4D4;
     padding: 15px;
     border-radius: 4px;
-
     p {
       color: #B2B2B2;
     }
-
     h4 {
       color: #4D4D4D;
+    }
+    .review-mark{
+      color: $yellow;
     }
   }
 
