@@ -3,26 +3,22 @@
 
 .product-info {
   color: #4D4D4D;
-  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
   padding-bottom: 25px; }
   .product-info .product-title h3 {
     font-weight: 500;
     margin-bottom: 15px; }
   .product-info .product-title p {
-    margin-bottom: 5px; }
+    margin-bottom: 10px; }
   .product-info .product-title .author-name {
     color: #368FE9; }
   .product-info .product-title .btn {
-    background-color: #EDEDED;
-    color: #808080;
-    padding-top: 2px;
-    padding-bottom: 2px; }
+    background-color: #95E1D3;
+    color: #808080; }
   .product-info .product-rating {
     margin-top: 30px;
     margin-bottom: 20px; }
-    .product-info .product-rating .fa-star {
-      color: #FFDD36; }
   .product-info .product-reviews-qty {
     color: #B2B2B2; }
   .product-info .product-controls {
@@ -38,14 +34,9 @@
       background-color: #F7F7F7;
       border: 1px solid #E5E5E5;
       color: #4D4D4D;
-      padding-left: 23px;
-      padding-right: 23px;
-      font-weight: 600; }
+      padding: 13px 25px; }
     .product-info .product-controls .add-to-wishlist {
-      margin: 0 20px;
-      padding-right: 40px;
-      padding-left: 40px; }
-    .product-info .product-controls a {
-      color: #CCCCCC; }
+      margin: 0 20px; }
     .product-info .product-controls .fa-flag {
+      color: #CCCCCC;
       margin-right: 10px; }
