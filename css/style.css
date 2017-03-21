@@ -268,7 +268,7 @@ a:hover {
       margin-left: 0; }
   .nav-bar .menu a {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #4D4D4D;
     cursor: pointer;
     text-decoration: none !important; }
@@ -584,14 +584,12 @@ a:hover {
     color: #4D4D4D; }
 
 .breadcrumb {
-  margin-top: 40px;
+  margin-top: 21px;
   padding-left: 0;
-  margin-bottom: 50px;
+  margin-bottom: 16px;
   background-color: inherit; }
   .breadcrumb a {
     color: #368FE9; }
-  .breadcrumb a, .breadcrumb .active {
-    font-size: 18px; }
   .breadcrumb .active {
     color: #4D4D4D; }
 
@@ -634,8 +632,12 @@ a:hover {
   .product-info .product-rating {
     margin-top: 30px;
     margin-bottom: 20px; }
+    .product-info .product-rating .product-rating__mark {
+      margin-top: 4px; }
     .product-info .product-rating .fa-star {
-      color: #FFDD36; }
+      color: #FFDD36;
+      font-size: 18px;
+      padding-right: 4px; }
   .product-info .product-reviews-qty {
     color: #B3B3B3; }
   .product-info .product-controls {
@@ -731,8 +733,8 @@ a:hover {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
   background-color: #fff;
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-top: 24px;
+  margin-bottom: 25px; }
   .product-page-nav .col-sm-12 {
     padding: 0; }
 
@@ -799,8 +801,9 @@ a:hover {
         margin-left: 10px;
         color: #B3B3B3; }
       .product-reviews-section .product-rating-mark .total-rating i {
-        padding-right: 5px;
-        color: #FFDD36; }
+        padding-right: 4px;
+        color: #FFDD36;
+        font-size: 18px; }
   .product-reviews-section .review-item {
     width: 100%;
     padding: 25px 0 32px 0; }
@@ -811,11 +814,9 @@ a:hover {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
+      display: flex; }
+    .product-reviews-section .review-item .progress {
+      margin: 0 8px; }
   .product-reviews-section .review-item-title {
     margin-bottom: 10px;
     color: #4D4D4D; }
@@ -886,19 +887,19 @@ a:hover {
               border-radius: 3px;
       content: '';
       display: block;
-      height: 24px;
+      height: 16px;
       -webkit-transition: 240ms;
       transition: 240ms;
-      width: 24px; }
+      width: 16px; }
     .product-reviews-section .product-add-review .reviews-options-item input[type="checkbox"]:checked:before, .product-reviews-section .product-add-review .reviews-options-item .checkbox-inline input[type="checkbox"]:checked:before {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
       position: absolute;
-      left: 8px;
-      top: 4px;
+      left: 6px;
+      top: 1px;
       display: table;
-      width: 6px;
+      width: 5px;
       height: 12px;
       border: 2px solid #fff;
       border-top: 0;
@@ -911,9 +912,9 @@ a:hover {
       background-color: #D4D4D4;
       border-color: transparent; }
     .product-reviews-section .product-add-review .reviews-options-item .fa-star {
-      margin-right: 10px;
+      margin-right: 4px;
       color: #FFDD36;
-      font-size: 16px; }
+      font-size: 18px; }
   .product-reviews-section .add-review-btn {
     font-weight: 600;
     padding-right: 23px;
@@ -969,13 +970,31 @@ a:hover {
     border: 1px solid #D4D4D4;
     padding: 15px;
     -webkit-border-radius: 4px;
-            border-radius: 4px; }
+            border-radius: 4px;
+    position: relative; }
+    .customer-reviews-section .review-body:after, .customer-reviews-section .review-body:before {
+      content: "\f0d9";
+      font-family: fontAwesome;
+      width: 60px;
+      height: 60px;
+      font-size: 32px;
+      color: #D4D4D4;
+      position: absolute;
+      top: 13%;
+      left: -12px;
+      /* Projects the arrow tot he direction that we want */ }
+    .customer-reviews-section .review-body:after {
+      left: -10px;
+      /* Helps create the border of the arrow */
+      color: #fff;
+      /* Same Background as the parent */ }
     .customer-reviews-section .review-body p {
       color: #B3B3B3; }
     .customer-reviews-section .review-body h4 {
       color: #4D4D4D; }
     .customer-reviews-section .review-body .review-mark {
-      color: #FFDD36; }
+      color: #FFDD36;
+      font-size: 18px; }
     .customer-reviews-section .review-body .review-product-img {
       display: -webkit-box;
       display: -webkit-flex;

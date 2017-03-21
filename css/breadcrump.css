@@ -1,12 +1,10 @@
 .breadcrumb {
-  margin-top: 40px;
+  margin-top: 21px;
   padding-left: 0;
-  margin-bottom: 50px;
+  margin-bottom: 16px;
   background-color: inherit; }
   .breadcrumb a {
     color: #368FE9; }
-  .breadcrumb a, .breadcrumb .active {
-    font-size: 18px; }
   .breadcrumb .active {
     color: #4D4D4D; }
 
