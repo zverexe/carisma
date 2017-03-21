@@ -56,10 +56,10 @@
       color: #D4D4D4;
       position: absolute;
       top: 13%;
-      left: -12px;
+      left: -10px;
       /* Projects the arrow tot he direction that we want */ }
     .customer-reviews-section .review-body:after {
-      left: -10px;
+      left: -9px;
       /* Helps create the border of the arrow */
       color: #fff;
       /* Same Background as the parent */ }

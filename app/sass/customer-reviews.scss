@@ -52,10 +52,10 @@
     color: #D4D4D4;
     position: absolute;
     top: 13%;
-    left: -12px; /* Projects the arrow tot he direction that we want */
+    left: -10px; /* Projects the arrow tot he direction that we want */
     }
     &:after {
-      left: -10px; /* Helps create the border of the arrow */
+      left: -9px; /* Helps create the border of the arrow */
       color: $primary-fff; /* Same Background as the parent */
     }
     p {
