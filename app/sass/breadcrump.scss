@@ -1,15 +1,16 @@
 @import "variables";
 
 .breadcrumb{
-  margin-top: 40px;
+  margin-top: 21px;
+
   padding-left: 0;
-  margin-bottom: 50px;
+  margin-bottom: 16px;
   background-color: inherit;
   a{
     color: $primary-blu;
   }
   a, .active{
-    font-size: 18px;
+    //font-size: 18px;
   }
   .active{
     color: $dark-2;

@@ -41,6 +41,23 @@
     border: 1px solid $gray-1;
     padding: 15px;
     border-radius: 4px;
+    position: relative;
+    &:after,
+    &:before {
+    content: "\f0d9";
+    font-family: fontAwesome;
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    color: #D4D4D4;
+    position: absolute;
+    top: 13%;
+    left: -12px; /* Projects the arrow tot he direction that we want */
+    }
+    &:after {
+      left: -10px; /* Helps create the border of the arrow */
+      color: $primary-fff; /* Same Background as the parent */
+    }
     p {
       color: $gray-2;
     }
@@ -49,6 +66,7 @@
     }
     .review-mark{
       color: $yellow;
+      font-size: 18px;
     }
     .review-product-img{
       display: flex;

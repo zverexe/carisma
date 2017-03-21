@@ -32,8 +32,12 @@
   .product-info .product-rating {
     margin-top: 30px;
     margin-bottom: 20px; }
+    .product-info .product-rating .product-rating__mark {
+      margin-top: 4px; }
     .product-info .product-rating .fa-star {
-      color: #FFDD36; }
+      color: #FFDD36;
+      font-size: 18px;
+      padding-right: 4px; }
   .product-info .product-reviews-qty {
     color: #B3B3B3; }
   .product-info .product-controls {
