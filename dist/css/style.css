@@ -596,6 +596,9 @@ a:hover {
   content: "> ";
   padding: 0 5px; }
 
+/*
+*Product page product-info section css rules
+ */
 .lSSlideOuter .lSPager.lSGallery {
   padding-top: 18px; }
 
@@ -662,6 +665,9 @@ a:hover {
     .product-info .product-controls .fa-flag {
       margin-right: 10px; }
 
+/*
+*Product page right section css rules
+ */
 .right-section {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
@@ -727,6 +733,9 @@ a:hover {
 .skincare-blog-link p {
   margin-top: 10px; }
 
+/*
+* Product page product-reviews section css rules
+ */
 .product-page-nav {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
@@ -1029,6 +1038,9 @@ a:hover {
       .customer-reviews-section .pagination .pagination li:last-child {
         margin-right: 0; }
 
+/*
+* Product-page bottom section css rules
+ */
 .bottom-section {
   padding-bottom: 155px; }
   .bottom-section .price-comparison {
@@ -1088,6 +1100,9 @@ a:hover {
   .bottom-section .additional-products-photo li {
     margin-bottom: 24px; }
 
+/*
+* Product-page qa-section css rules
+ */
 .qa-section {
   padding: 0 0px 30px 20px;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
@@ -1187,6 +1202,9 @@ a:hover {
       .qa-section .customer-answer .customer-answer-header p:first-child {
         margin-right: 18px; }
 
+/*
+* Home page search section css rules
+ */
 .search-section {
   min-height: 344px;
   background: url(../img/Rectangle.png) no-repeat;
@@ -1245,6 +1263,9 @@ a:hover {
         color: #4D4D4D;
         border: 1px solid #E5E5E5; }
 
+/*
+* Home page info section css rules
+ */
 .info-section {
   border-bottom: 1px solid #D4D4D4; }
   .info-section .home-page-category {
@@ -1287,6 +1308,9 @@ a:hover {
         width: 72px;
         height: 72px; }
 
+/*
+*Home page main section css rules
+ */
 .home-page-main {
   padding-top: 64px;
   margin-bottom: 60px;
