@@ -1648,7 +1648,12 @@ a:hover {
     -webkit-box-align: inherit;
     -webkit-align-items: inherit;
         -ms-flex-align: inherit;
-            align-items: inherit; } }
+            align-items: inherit; }
+  .sign-up-step-1 .skin-info .skin-types ul, .sign-up-step-1 .skin-info .skin-concers ul {
+    display: inline-block;
+    text-align: center; }
+  .sign-up-step-1 .skin-info .skin-types li, .sign-up-step-1 .skin-info .skin-concers li {
+    margin: 0 10px 10px 10px; } }
 
 @media screen and (max-width: 991px) {
   .nav-bar .menu a {
