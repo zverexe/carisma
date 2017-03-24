@@ -207,6 +207,19 @@ a:hover{
       }
     }
   }
+  .sign-up-step-1{
+    .skin-info{
+      .skin-types{
+        ul{
+          display: inline-block;
+          text-align: center;
+        }
+        li{
+         margin: 0 10px 10px 10px;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 991px) {
   .nav-bar{
@@ -301,8 +314,7 @@ a:hover{
   }
   .bottom-section{
     tbody{
-      display: flex;
-      //flex-wrap: wrap;
+      display: flex;      
       flex-direction: column;
       tr{
         display: flex;
