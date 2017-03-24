@@ -489,25 +489,19 @@ a:hover {
       width: 144px;
       border: 0; }
   .products .products-list {
-    padding: 32px;
+    padding: 30px 144px 26px 32px;
     border: 1px solid #e7e7e7;
     -webkit-border-radius: 2px;
             border-radius: 2px;
-    background-color: #fff; }
-    .products .products-list .products-list-item {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
+    background-color: #fff;
+    /*.products-list-item{
       display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      margin-bottom: 25px; }
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }*/ }
+    .products .products-list table {
+      margin-bottom: 0; }
     .products .products-list .products-list__logo {
       display: -webkit-box;
       display: -webkit-flex;
@@ -516,14 +510,18 @@ a:hover {
       -webkit-box-align: start;
       -webkit-align-items: flex-start;
           -ms-flex-align: start;
-              align-items: flex-start; }
+              align-items: flex-start;
+      font-size: 16px; }
       .products .products-list .products-list__logo p {
         margin-left: 17px; }
     .products .products-list .products-list__category {
-      font-size: 16px;
-      color: #B3B3B3; }
+      font-size: 16px; }
+    .products .products-list .products-list__rating i {
+      color: #FFDD36; }
     .products .products-list .products-list__rating p {
       color: #B3B3B3; }
+    .products .products-list .products-list__price {
+      font-size: 18px; }
   .products .pagination {
     display: -webkit-box;
     display: -webkit-flex;
@@ -598,6 +596,9 @@ a:hover {
   content: "> ";
   padding: 0 5px; }
 
+/*
+*Product page product-info section css rules
+ */
 .lSSlideOuter .lSPager.lSGallery {
   padding-top: 18px; }
 
@@ -664,6 +665,9 @@ a:hover {
     .product-info .product-controls .fa-flag {
       margin-right: 10px; }
 
+/*
+*Product page right section css rules
+ */
 .right-section {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
@@ -729,6 +733,9 @@ a:hover {
 .skincare-blog-link p {
   margin-top: 10px; }
 
+/*
+* Product page product-reviews section css rules
+ */
 .product-page-nav {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
@@ -1031,6 +1038,9 @@ a:hover {
       .customer-reviews-section .pagination .pagination li:last-child {
         margin-right: 0; }
 
+/*
+* Product-page bottom section css rules
+ */
 .bottom-section {
   padding-bottom: 155px; }
   .bottom-section .price-comparison {
@@ -1090,6 +1100,9 @@ a:hover {
   .bottom-section .additional-products-photo li {
     margin-bottom: 24px; }
 
+/*
+* Product-page qa-section css rules
+ */
 .qa-section {
   padding: 0 0px 30px 20px;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
@@ -1189,6 +1202,9 @@ a:hover {
       .qa-section .customer-answer .customer-answer-header p:first-child {
         margin-right: 18px; }
 
+/*
+* Home page search section css rules
+ */
 .search-section {
   min-height: 344px;
   background: url(../img/Rectangle.png) no-repeat;
@@ -1247,6 +1263,9 @@ a:hover {
         color: #4D4D4D;
         border: 1px solid #E5E5E5; }
 
+/*
+* Home page info section css rules
+ */
 .info-section {
   border-bottom: 1px solid #D4D4D4; }
   .info-section .home-page-category {
@@ -1289,6 +1308,9 @@ a:hover {
         width: 72px;
         height: 72px; }
 
+/*
+*Home page main section css rules
+ */
 .home-page-main {
   padding-top: 64px;
   margin-bottom: 60px;
@@ -1484,6 +1506,114 @@ a:hover {
           align-items: center; }
   .home-page-bottom .popular-product .popular-product-footer i {
     color: #FFDD36; }
+
+/*
+* Sign-up page css rules
+ */
+.header-sign-up .header-top {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.sign-up-step-1 {
+  margin-top: 46px; }
+  .sign-up-step-1 .steps-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .sign-up-step-1 .steps-list li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #C4C4C4; }
+      .sign-up-step-1 .steps-list li:active {
+        color: #368FE9; }
+        .sign-up-step-1 .steps-list li:active .step-count {
+          background-color: #368FE9; }
+      .sign-up-step-1 .steps-list li:first-child {
+        margin-right: 35px; }
+    .sign-up-step-1 .steps-list .step-count {
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      background-color: #C4C4C4;
+      padding: 10px 17px;
+      color: #fff;
+      margin-right: 12px; }
+  .sign-up-step-1 .skin-info {
+    padding: 24px 32px;
+    background-color: #fff;
+    margin-top: 48px; }
+    .sign-up-step-1 .skin-info .skin-types, .sign-up-step-1 .skin-info .skin-concers {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .sign-up-step-1 .skin-info .skin-types ul, .sign-up-step-1 .skin-info .skin-concers ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: 24px; }
+      .sign-up-step-1 .skin-info .skin-types li, .sign-up-step-1 .skin-info .skin-concers li {
+        padding: 20px 45px;
+        -webkit-border-radius: 4px;
+                border-radius: 4px;
+        border: 2px solid #D4D4D4;
+        cursor: pointer; }
+        .sign-up-step-1 .skin-info .skin-types li:hover, .sign-up-step-1 .skin-info .skin-concers li:hover {
+          border-color: #368FE9; }
+        .sign-up-step-1 .skin-info .skin-types li:last-child, .sign-up-step-1 .skin-info .skin-concers li:last-child {
+          margin-right: 0; }
+    .sign-up-step-1 .skin-info .skin-concers {
+      margin-top: 30px; }
+      .sign-up-step-1 .skin-info .skin-concers ul {
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-box-pack: inherit;
+        -webkit-justify-content: inherit;
+            -ms-flex-pack: inherit;
+                justify-content: inherit; }
+      .sign-up-step-1 .skin-info .skin-concers li {
+        padding: 15px 0px;
+        width: 130px;
+        margin-bottom: 16px;
+        margin-right: 16px; }
+        .sign-up-step-1 .skin-info .skin-concers li:hover {
+          color: #368FE9; }
+  .sign-up-step-1 .next-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .sign-up-step-1 .btn {
+    background-color: #488de8;
+    color: #fff;
+    padding: 10px 35px; }
 
 /*
 * Media styles
