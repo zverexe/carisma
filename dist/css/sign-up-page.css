@@ -70,11 +70,12 @@
         -webkit-border-radius: 4px;
                 border-radius: 4px;
         border: 2px solid #D4D4D4;
-        cursor: pointer; }
+        cursor: pointer;
+        /*&:last-child{
+          margin-right: 0;
+        }*/ }
         .sign-up-step-1 .skin-info .skin-types li:hover, .sign-up-step-1 .skin-info .skin-concers li:hover {
           border-color: #368FE9; }
-        .sign-up-step-1 .skin-info .skin-types li:last-child, .sign-up-step-1 .skin-info .skin-concers li:last-child {
-          margin-right: 0; }
     .sign-up-step-1 .skin-info .skin-concers {
       margin-top: 30px; }
       .sign-up-step-1 .skin-info .skin-concers ul {

@@ -1,0 +1,156 @@
+@import "variables";
+
+.profile-section{
+  @include section-background;
+  margin-bottom: 60px;
+  padding:  20px 0;
+
+  .profile{
+    display: flex;
+  }
+  .profile-logo{
+    margin-right: 40px;
+    .btn{
+      width: 100%;
+      background-color: $buttons-fill-1;
+      border: 1px solid $white-1;
+    }
+    .followers-qty{
+      display: flex;
+      justify-content: space-between;
+      margin: 14px 0;
+      span{
+        color: $gray-2;
+      }
+    }
+  }
+  .profile-social-links{
+    margin: 10px 0 20px 0;
+    color: $white-2;
+    i:hover{
+      color: $primary-blu;
+    }
+  }
+  .profile-country{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    p{
+      margin-left: 5px;
+
+    }
+  }
+  .profile-statistics{
+    ul{
+      margin-top: 10px;
+      li{
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .profile-additional-info{
+    .points{
+      font-size: 48px;
+      color: $primary-blu;
+    }
+    .skin-type{
+
+        margin-top: 15px;
+
+      &:last-child{
+        margin-top: 10px;
+      }
+
+      ul{
+        li{
+          padding: 5px 14px;
+          background-color: $white-2;
+          border-radius: 4px;
+          margin-bottom:9px;
+          margin-right: 10px;
+          color: $dark-1;
+        }
+      }
+    }
+  }
+}
+
+.profile-navigation{
+  ul{
+    li{
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 18px;
+
+      &:hover{
+        border-left: 4px solid $primary-blu;
+        padding-left: 6px;
+      }
+    }
+  }
+}
+
+.profile-bottom-section{
+  h4{
+    font-weight: 400;
+  }
+  padding: 20px 0;
+  margin-bottom: 30px;
+  @include section-background;
+  .profile-reviews-wrapper{
+    padding: 0 30px 12px 30px;
+  }
+  .profile-reviews{
+    border-bottom: 1px solid $gray-1;
+  }
+  .profile-reviews-item{
+    display: flex;
+    margin-bottom:18px;
+    img{
+      margin-right: 20px;
+    }
+    .review-header{
+      display: flex;
+      justify-content: space-between;
+      h4{
+        margin: 0;
+      }
+    }
+  }
+  .profile-user-products{
+    border-bottom: 1px solid $gray-1;
+    .profile-products-section{
+      padding: 20px 30px;
+    }
+    .profile-products{
+      display: flex;
+      justify-content: space-between;
+    }
+    .profile-products-list{
+      width: 100%;
+     .block-title{
+       margin-bottom: 10px;
+     }
+      li{
+        margin-bottom: 16px;
+        a{
+          display: flex;
+          align-items: center;
+        }
+        img{
+          margin-right:17px;
+        }
+        .profile-product-rating{
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+
+    }
+  }
+  .profile-wishlist{
+    padding: 20px 30px;
+    @extend .profile-user-products;
+    border-bottom: 0;
+  }
+}

@@ -26,6 +26,10 @@ a{
   color: inherit;
 }
 
+.fa-star{
+  color: $yellow;
+}
+
 a:hover{
   text-decoration: none;
   color: inherit;
@@ -154,6 +158,7 @@ a:hover{
 @import "home-reviews-section";
 @import "home-page-bottom";
 @import "sign-up-page";
+@import "user-info";
 
 /*
 * Media styles
@@ -227,7 +232,7 @@ a:hover{
       a{
         font-size: 16px;
       }
-      li{
+      .menu-link{
         margin: 0 5px;
       }
     }
@@ -276,7 +281,8 @@ a:hover{
     }
   }
   .right-section{
-    .social-share-btn{
+    .social-btn-list{
+      display: inline-block;
       text-align: center;
       margin-bottom: 0;
       li{
@@ -285,14 +291,12 @@ a:hover{
     }
     .similar-product{
       .similar-product-rating{
-        p{
-          font-size: 12px;
-          margin-left: 0;
-        }
+        margin-top: 0;
       }
-      .similar-product-title{
-        text-align: center;
+      .similar-product-item{
+        flex-direction: column;
       }
+
     }
   }
   .product-info{
