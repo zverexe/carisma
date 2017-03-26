@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 header-top">
+                    <h2 class="logo">Skincarisma</h2>
+                    <div class="search-bar">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-categories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Product
+                                <span><i class="fa fa-chevron-down fa-1x" aria-hidden="true"></i></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown-categories">
+                                <li><a href="#">Action</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Another action</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <img  class="search__icon" src="img/search.png" alt="">
+                            <input type="text" class="form-control search__input" id="" placeholder="Search products">
+                            <button type="button" class="btn search__button">Search</button>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="notify">
+                            <img src="img/notification.png" alt="">
+                        </div>
+                        <div class="profile-info">
+                            <div class="profile-info__greeting text-right">
+                                <p>Welcome,</p>
+                                <p class="username">Kevin Chen</p>
+                            </div>
+                            <div class="profile-info__logo">
+                                <img src="img/person.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid navigation">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 nav-bar">
+                    <ul class="list-unstyled list-inline menu">
+                        <li class="menu-link"><a href="home.html">Home</a></li>
+                        <li class="menu-link"><a href="">Skin Resources</a></li>
+                        <li class="menu-link"><a href="">Community Forums</a></li>
+                        <li class="menu-link"><a href="product-page.html">Product Reviews</a></li>
+                    </ul>
+                    <ul class="list-unstyled list-inline social-links">
+                        <li class="social-link-item" data-toggle="tooltip" data-placement="bottom" title="Twitter"><a href=""><img src="img/twitter.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Facebook"><a href=""><img src="img/facebook.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Instagram"><a href="" ><img src="img/instagram.png" alt=""></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Pineterest"><a href=""><img src="img/pinterest.png" alt="" ></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#">Product Review</a>
+                </li>
+                <li>
+                    <a href="#">Cleaners</a>
+                </li>
+                <li class="active">Mizon All in One Snail and Bee Venom</li>
+            </ol>
+        </div>
+    </div>
+</div>
+<div class="container-fluid profile-section">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="profile">
+                        <div class="profile-logo">
+                            <img src="img/user-page-logo.png" alt="">
+                            <p class="followers-qty dark-2"> 350 Following <span>|</span> 1.2k Follower</p>
+                            <button type="button" class="btn">Follow</button>
+                        </div>
+                        <div class="profile-main-info">
+                            <h2>Simon Lin</h2>
+                            <div class="profile-country">
+                                <img src="img/TW.png" alt="">
+                                <p class="dark-2">Taiwan</p>
+                            </div>
+                            <p class="p-gray-2">Member since Jan 2016</p>
+                            <ul class="list-unstyled list-inline profile-social-links">
+                                <li data-toggle="tooltip" data-placement="bottom" title="Facebook">
+                                    <a href="">
+                                        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                                    <a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li data-toggle="tooltip" data-placement="bottom" title="Pinterest">
+                                    <a href=""><i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="profile-statistics">
+                                <p class="dark-2">Statiscs</p>
+                                <ul class="list-unstyled">
+                                    <li class="p-gray-2"><a href="">29 Product Reviews</a></li>
+                                    <li class="p-gray-2"><a href="">3 Product Question Asked</a></li>
+                                    <li class="p-gray-2"><a href="">38 Questions Answered</a></li>
+                                    <li class="p-gray-2"><a href="">529 Forum Posts</a></li>
+                                    <li class="p-gray-2"><a href="">2 Product Photos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="profile-additional-info">
+                        <p class="dark-2">Skincarisma Points</p>
+                        <p class="points">6250</p>
+                        <div class="profile-skin-type">
+                            <p class="dark-2">Skin profile</p>
+                            <div class="skin-type">
+                                <p class="p-gray-2">Skin type</p>
+                                <ul class="list-unstyled list-inline skin-type-list">
+                                    <li>Oliy Combination Skin</li>
+                                </ul>
+                            </div>
+                            <div class="skin-type">
+                                <p class="p-gray-2">Skin type</p>
+                                <ul class="list-unstyled list-inline skin-type-list">
+                                    <li>Sensitive</li>
+                                    <li>Dehydrated</li>
+                                    <li>Redness</li>
+                                    <li>Anti-Aging</li>
+                                    <li>Fine-Lines</li>
+                                    <li>Sun-Damage</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="profile-navigation">
+                <ul class="list-unstyled">
+                    <li><a href="">Overview</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">Q&A</a></li>
+                    <li><a href="">Skincare Routine</a></li>
+                    <li><a href="">Community Discussion</a></li>
+                    <li><a href="">Wishlist</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="profile-bottom-section">
+                <div class="profile-reviews">
+                    <div class="profile-reviews-wrapper">
+                        <h4 class="dark-2">Latest Reviews</h4>
+                        <ul class="list-unstyled">
+                            <li class="profile-reviews-item">
+                                <img src="img/review.png" alt="">
+                                <div class="review-body">
+                                    <div class="review-header">
+                                        <div class="review-header-left">
+                                            <h4 class="dark-2">Cupackes are for life</h4>
+                                            <ul class="list-unstyled list-inline">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </ul>
+                                        </div>
+                                        <div class="review-header-right">
+                                            <p class="p-gray-2"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                        </div>
+                                    </div>
+                                    <p class="p-gray-2">
+                                        trouble making my makeupMy skin produces excessive oil because of dryness and I
+                                        have a lot of trouble making my makeupMy skin produces excessive oil because of
+                                        dryness and I have a lot of trouble making my makeupMy sk…
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="profile-reviews-item">
+                                <img src="img/review.png" alt="">
+                                <div class="review-body">
+                                    <div class="review-header">
+                                        <div class="review-header-left">
+                                            <h4 class="dark-2">Cupackes are for life</h4>
+                                            <ul class="list-unstyled list-inline">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </ul>
+                                        </div>
+                                        <div class="review-header-right">
+                                            <p class="p-gray-2"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 50 Upvotes</p>
+                                        </div>
+                                    </div>
+                                    <p class="p-gray-2">
+                                        trouble making my makeupMy skin produces excessive oil because of dryness and I
+                                        have a lot of trouble making my makeupMy skin produces excessive oil because of
+                                        dryness and I have a lot of trouble making my makeupMy sk…
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="profile-user-products">
+                    <div class="profile-products-section">
+                        <h4 class="dark-2">Skincare Routine</h4>
+                        <div class="profile-products">
+                            <div class="profile-products-list">
+                                <p class="block-title">Morning</p>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-25.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-24.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-23.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-22.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-21.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="profile-products-list">
+                                <p class="block-title">Evening</p>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-25.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-24.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-23.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-22.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="img/image-21.png" alt="">
+                                            <div class="profile-products-info">
+                                                <p>Brand Name</p>
+                                                <p class="block-title">Intensive Repairing Black Cotton</p>
+                                                <div class="profile-product-rating">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </ul>
+                                                    <p class="p-gray-2">245 Reviews</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-wishlist">
+                    <h4 class="dark-2">Wishlist</h4>
+                    <div class="profile-products-list">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="">
+                                    <img src="img/image-25.png" alt="">
+                                    <div class="profile-products-info">
+                                        <p>Brand Name</p>
+                                        <p class="block-title">Intensive Repairing Black Cotton</p>
+                                        <div class="profile-product-rating">
+                                            <ul class="list-unstyled list-inline">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </ul>
+                                            <p class="p-gray-2">245 Reviews</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/image-24.png" alt="">
+                                    <div class="profile-products-info">
+                                        <p>Brand Name</p>
+                                        <p class="block-title">Intensive Repairing Black Cotton</p>
+                                        <div class="profile-product-rating">
+                                            <ul class="list-unstyled list-inline">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </ul>
+                                            <p class="p-gray-2">245 Reviews</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/image-23.png" alt="">
+                                    <div class="profile-products-info">
+                                        <p>Brand Name</p>
+                                        <p class="block-title">Intensive Repairing Black Cotton</p>
+                                        <div class="profile-product-rating">
+                                            <ul class="list-unstyled list-inline">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </ul>
+                                            <p class="p-gray-2">245 Reviews</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer-container">
+    <div class="row">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <p class="footer-item-title">Skincarisma</p>
+                        <ul class="list-unstyled">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Help/FAQ</a></li>
+                            <li><a href="">Terms/Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <p class="footer-item-title">Discovery</p>
+                        <ul class="list-unstyled">
+                            <li><a href="">Skincare Guide</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Community's Choice</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <p class="footer-item-title">Follow Us</p>
+                        <ul class="list-unstyled list-inline">
+                            <li>
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-item">
+                        <p class="footer-item-title">About Us</p>
+                        <p>
+                            Figuring out ''what works'' can be overwhelming and confusing at times.
+                            At Favful, we believe there's a better way. We believe in a beauty advisory platform
+                            where we can empower each other in making informed beauty choices via
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center copyright">Copyright © 2017. Luronic Technologies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/ion.rangeSlider.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
