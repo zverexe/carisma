@@ -16,7 +16,7 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .sign-up-main .col-sm-5 {
+  .sign-up-main .col-sm-6:first-child {
     padding-right: 32px;
     border-right: 1px solid #D9D9D9; }
   .sign-up-main a {
@@ -60,3 +60,5 @@
       margin-bottom: 18px; }
     .sign-up-main .sign-up-right p {
       font-size: 16px; }
+    .sign-up-main .sign-up-right label {
+      font-weight: 400; }
