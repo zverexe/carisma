@@ -30,6 +30,7 @@
     margin-top: 40px;
     margin-bottom: 15px; }
   .sign-up-main .sign-up-right {
+    padding-top: 20px;
     padding-left: 60px; }
     .sign-up-main .sign-up-right .form-control {
       height: 48px;
@@ -37,6 +38,8 @@
       font-size: 18px;
       -webkit-box-shadow: none;
               box-shadow: none; }
+    .sign-up-main .sign-up-right .form-group {
+      margin-bottom: 25px; }
     .sign-up-main .sign-up-right ::-webkit-input-placeholder {
       /* WebKit, Blink, Edge */
       color: #D4D4D4; }
