@@ -32,12 +32,17 @@
     }
   }
   .sign-up-right{
+    padding-top: 20px;
     padding-left: 60px;
+
     .form-control{
       height: 48px;
       border: 1px solid $gray-6;
       font-size: 18px;
       box-shadow: none;
+    }
+    .form-group{
+      margin-bottom: 25px;
     }
     ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
       color:    $gray-1;
