@@ -1,0 +1,67 @@
+/*
+* Sign Up general css rules
+ */
+@import "variables";
+
+.sign-up-main{
+  @include section-background;
+  color: $dark-2;
+  padding: 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  .col-sm-5{
+    padding-right: 32px;
+    border-right: 1px solid $gray-6;
+  }
+  a{
+    color: $primary-blu;
+  }
+  .sign-up-left, .sign-up-right{
+    width: 100%;
+  }
+  .sign-up-left{
+
+    img{
+      margin-top: 12px;
+      margin-bottom: 28px;
+    }
+    ul{
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+  }
+  .sign-up-right{
+    padding-left: 60px;
+    .form-control{
+      height: 48px;
+      border: 1px solid $gray-6;
+      font-size: 18px;
+      box-shadow: none;
+    }
+    ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color:    $gray-1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color:   $gray-1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color:    $gray-1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color:    $gray-1;
+    }
+    .btn{
+      color: $primary-fff;
+      background-color: $header-bgc;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 0;
+      padding: 17px 12px;
+      margin-bottom: 18px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+}

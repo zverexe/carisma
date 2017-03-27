@@ -15,6 +15,10 @@ h2, h3, ul{
   margin: 0;
 }
 
+h4{
+  font-weight: 400;
+}
+
 p{
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -159,6 +163,7 @@ a:hover{
 @import "home-page-bottom";
 @import "sign-up-page";
 @import "user-info";
+@import "sign-up-general";
 
 /*
 * Media styles

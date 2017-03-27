@@ -11,6 +11,9 @@ strong {
 h2, h3, ul {
   margin: 0; }
 
+h4 {
+  font-weight: 400; }
+
 p {
   margin: 0;
   font-family: 'Roboto', sans-serif; }
@@ -1766,6 +1769,69 @@ a:hover {
   .profile-bottom-section .profile-wishlist {
     padding: 20px 30px;
     border-bottom: 0; }
+
+/*
+* Sign Up general css rules
+ */
+.sign-up-main {
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: #4D4D4D;
+  padding: 30px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .sign-up-main .col-sm-5 {
+    padding-right: 32px;
+    border-right: 1px solid #D9D9D9; }
+  .sign-up-main a {
+    color: #368FE9; }
+  .sign-up-main .sign-up-left, .sign-up-main .sign-up-right {
+    width: 100%; }
+  .sign-up-main .sign-up-left img {
+    margin-top: 12px;
+    margin-bottom: 28px; }
+  .sign-up-main .sign-up-left ul {
+    margin-top: 40px;
+    margin-bottom: 15px; }
+  .sign-up-main .sign-up-right {
+    padding-left: 60px; }
+    .sign-up-main .sign-up-right .form-control {
+      height: 48px;
+      border: 1px solid #D9D9D9;
+      font-size: 18px;
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+    .sign-up-main .sign-up-right ::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: #D4D4D4; }
+    .sign-up-main .sign-up-right :-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #D4D4D4; }
+    .sign-up-main .sign-up-right ::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #D4D4D4; }
+    .sign-up-main .sign-up-right :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #D4D4D4; }
+    .sign-up-main .sign-up-right .btn {
+      color: #fff;
+      background-color: #95E1D3;
+      width: 100%;
+      font-size: 16px;
+      -webkit-border-radius: 0;
+              border-radius: 0;
+      padding: 17px 12px;
+      margin-bottom: 18px; }
+    .sign-up-main .sign-up-right p {
+      font-size: 16px; }
 
 /*
 * Media styles
