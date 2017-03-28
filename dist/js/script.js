@@ -17,7 +17,31 @@ $('#imageGallery').lightSlider({
 
 $('[data-toggle="tooltip"]').tooltip();
 
-$("#example_id").ionRangeSlider({
+
+/* activate article-page sidebar-affix */
+$('#right-col').affix({
+    offset: {
+        top: 60
+
+    }
+});
+
+/* activate article-page scrollspy menu in the affix section */
+var $body   = $(document.body);
+$body.scrollspy({
+    target: '#article-navigation',
+    offset: 300
+});
+
+
+
+
+
+
+
+
+
+/*$("#example_id").ionRangeSlider({
     type: "double",
     grid: true,
     min: 0,
@@ -29,4 +53,17 @@ $("#price").ionRangeSlider({
     min: 0,
     max: 1000,
     prefix: "$"
-});
+});*/
+
+/*var $body   = $(document.body);
+var navHeight = $('#chapter-navigation').outerHeight(true) + 10;
+
+$body.scrollspy({
+    target: '#leftCol',
+    offset: navHeight
+});*/
+
+
+
+
+
