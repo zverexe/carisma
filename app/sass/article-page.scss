@@ -10,6 +10,11 @@ body {
   background-color: $primary-fff;
   @include section-background;
   margin-top: 10px;
+  .artiles-wrapper{
+    p{
+      color: $gray-2;
+    }
+  }
   .articles-chapter{
     margin-bottom: 100px;
     img{
