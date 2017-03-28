@@ -21,8 +21,8 @@ $('[data-toggle="tooltip"]').tooltip();
 /* activate article-page sidebar-affix */
 $('#right-col').affix({
     offset: {
-        top: 60
-
+        top: 100,
+        bottom: 850
     }
 });
 

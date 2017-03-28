@@ -1871,6 +1871,9 @@ body {
 .nav li.active a {
   padding-left: 12px; }
 
+.affix-bottom {
+  position: absolute; }
+
 .articles-bottom-section .related-articles {
   display: -webkit-box;
   display: -webkit-flex;
